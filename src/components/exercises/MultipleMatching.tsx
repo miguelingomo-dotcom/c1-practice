@@ -27,7 +27,7 @@ export function MultipleMatching({
       <div className="space-y-4 max-h-[70vh] overflow-y-auto pr-2 border-r border-ink/10">
         <p className="text-sm text-inkSoft italic">{exercise.intro}</p>
         {exercise.texts.map((t) => (
-          <div key={t.label} className="bg-white border border-ink/10 rounded-sm p-4">
+          <div key={t.label} className="bg-white border border-ink/10 rounded-lg p-4">
             <div className="w-7 h-7 flex items-center justify-center rounded-full bg-ink text-paper font-mono text-sm mb-2">
               {t.label}
             </div>
@@ -53,13 +53,13 @@ export function MultipleMatching({
                     key={t.label}
                     disabled={checked}
                     onClick={() => setSelected((s) => ({ ...s, [i]: t.label }))}
-                    className={`w-9 h-9 rounded-sm border font-mono text-sm focus-ring transition-colors ${
+                    className={`w-9 h-9 rounded-lg border font-mono text-sm focus-ring transition-colors ${
                       isCorrectOpt
                         ? 'bg-correctSoft border-correct text-correct'
                         : isWrongSelected
-                          ? 'bg-[#F4DEDF] border-pen text-pen'
+                          ? 'bg-penSoft/25 border-pen text-pen'
                           : isSelected
-                            ? 'bg-ink text-paper border-ink'
+                            ? 'bg-accent text-white border-accent shadow-sm shadow-accent/30'
                             : 'bg-white border-ink/20 hover:border-ink/50'
                     }`}
                   >

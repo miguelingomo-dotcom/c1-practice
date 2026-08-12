@@ -1,5 +1,13 @@
+import { motion } from 'framer-motion';
+import { ArrowLeft, Clock, Trophy } from 'lucide-react';
 import { EXAM_CONFIGS, type ExamConfig } from '../lib/exam';
 import { Button, Card } from './ui';
+
+const container = { hidden: {}, show: { transition: { staggerChildren: 0.08 } } };
+const item = {
+  hidden: { opacity: 0, y: 14 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.3, ease: 'easeOut' as const } },
+};
 
 export function ExamSetup({
   onStart,
@@ -10,35 +18,40 @@ export function ExamSetup({
 }) {
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <Button variant="ghost" onClick={onBack} className="!px-0 mb-2">
-            ← Inicio
-          </Button>
-          <h1 className="font-serif text-3xl">Modo examen</h1>
+      <div>
+        <Button variant="ghost" onClick={onBack} className="!px-2 !py-1 mb-2 -ml-2">
+          <ArrowLeft size={15} /> Inicio
+        </Button>
+        <div className="flex items-center gap-3">
+          <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-gold to-[#FACC15] flex items-center justify-center text-white shadow-md">
+            <Trophy size={20} />
+          </div>
+          <h1 className="font-display text-3xl font-semibold text-ink">Modo examen</h1>
         </div>
       </div>
 
       <p className="text-inkSoft max-w-2xl">
-        Encadena varias partes en una sola sesión cronometrada, como en el examen real. Al
-        final verás el resultado desglosado por parte. Se elige un ejercicio al azar de
-        cada parte (priorizando los que aún no has hecho).
+        Encadena varias partes en una sola sesión cronometrada, como en el examen real. Al final
+        verás el resultado desglosado por parte. Se elige un ejercicio al azar de cada parte
+        (priorizando los que aún no has hecho).
       </p>
 
-      <div className="grid sm:grid-cols-3 gap-4">
+      <motion.div variants={container} initial="hidden" animate="show" className="grid sm:grid-cols-3 gap-4">
         {EXAM_CONFIGS.map((config) => (
-          <Card key={config.id} className="p-5 flex flex-col justify-between gap-4">
-            <div className="space-y-1.5">
-              <p className="font-mono text-xs uppercase tracking-wider text-pen">
-                ~{config.minutes} min
-              </p>
-              <h3 className="font-serif text-lg">{config.label}</h3>
-              <p className="text-sm text-inkSoft">{config.description}</p>
-            </div>
-            <Button onClick={() => onStart(config)}>Empezar →</Button>
-          </Card>
+          <motion.div key={config.id} variants={item}>
+            <Card hover className="p-5 flex flex-col justify-between gap-4 h-full">
+              <div className="space-y-1.5">
+                <span className="inline-flex items-center gap-1.5 font-mono text-xs font-bold uppercase tracking-wider text-gold bg-goldSoft px-2.5 py-1 rounded-full">
+                  <Clock size={12} /> ~{config.minutes} min
+                </span>
+                <h3 className="font-display text-lg font-semibold text-ink pt-1">{config.label}</h3>
+                <p className="text-sm text-inkSoft leading-relaxed">{config.description}</p>
+              </div>
+              <Button onClick={() => onStart(config)}>Empezar →</Button>
+            </Card>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }

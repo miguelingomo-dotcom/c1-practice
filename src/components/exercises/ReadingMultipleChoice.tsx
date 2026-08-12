@@ -47,13 +47,13 @@ export function ReadingMultipleChoice({
                     key={oi}
                     disabled={checked}
                     onClick={() => setSelected((s) => ({ ...s, [i]: oi }))}
-                    className={`text-left px-3 py-1.5 text-sm rounded-sm border focus-ring transition-colors ${
+                    className={`text-left px-3 py-1.5 text-sm rounded-lg border focus-ring transition-colors ${
                       isCorrectOpt
                         ? 'bg-correctSoft border-correct text-correct'
                         : isWrongSelected
-                          ? 'bg-[#F4DEDF] border-pen text-pen'
+                          ? 'bg-penSoft/25 border-pen text-pen'
                           : isSelected
-                            ? 'bg-ink text-paper border-ink'
+                            ? 'bg-accent text-white border-accent shadow-sm shadow-accent/30'
                             : 'bg-white border-ink/20 hover:border-ink/50'
                     }`}
                   >

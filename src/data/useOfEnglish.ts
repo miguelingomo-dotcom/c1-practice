@@ -163,6 +163,126 @@ Understanding these distinctions before travelling can spare visitors both finan
       { options: ['source', 'component', 'element', 'part'], answer: 0 },
     ],
   },
+  {
+    id: 'moe-p1-09',
+    part: 1,
+    title: 'La paradoja de la elección',
+    text: `Contrary to what economic theory has traditionally assumed, presenting consumers with an ever-expanding {{0}} of options does not reliably make them happier with their eventual decision. Psychologists studying this phenomenon, often referred to as the paradox of choice, have found that excessive choice can actually {{1}} decision-making, leaving people paralysed by possibilities rather than empowered by them.
+
+Part of the explanation lies in the sheer cognitive {{2}} of comparing numerous alternatives, each with its own trade-offs. Faced with dozens of near-identical options, consumers frequently {{3}} to heuristics, mental shortcuts that simplify the decision but rarely {{4}} the theoretically optimal outcome.
+
+There is also a psychological cost that persists {{5}} the decision has been made. Buyers confronted with abundant choice often experience greater regret afterwards, wondering whether one of the many alternatives they {{6}} might have served them better. Retailers who have experimented with deliberately {{7}} their product ranges report, somewhat counterintuitively, healthier sales as a result.`,
+    gaps: [
+      { options: ['array', 'range', 'spectrum', 'scope'], answer: 0 },
+      { options: ['hinder', 'impede', 'hamper', 'obstruct'], answer: 0 },
+      { options: ['burden', 'load', 'weight', 'strain'], answer: 1 },
+      { options: ['resort', 'turn', 'revert', 'default'], answer: 0 },
+      { options: ['guarantee', 'ensure', 'secure', 'warrant'], answer: 0 },
+      { options: ['beyond', 'past', 'after', 'following'], answer: 2 },
+      { options: ['declined', 'rejected', 'passed over', 'dismissed'], answer: 0 },
+      { options: ['narrowing', 'reducing', 'trimming', 'paring'], answer: 0 },
+    ],
+  },
+  {
+    id: 'moe-p1-10',
+    part: 1,
+    title: 'La lingüística forense',
+    text: `When a threatening letter, a ransom note or a suspicious suicide note becomes central to a criminal investigation, forensic linguists are sometimes called upon to {{0}} light on its likely author. Unlike the confident voice-matching techniques portrayed in television dramas, real forensic linguistic analysis tends to proceed with considerably more {{1}}, since written style, unlike a fingerprint, is neither wholly unique nor entirely {{2}}.
+
+Analysts typically {{3}} their attention on recurring patterns: distinctive spelling errors, unusual punctuation habits, or a preference for certain words over their near-synonyms. Such quirks, while never {{4}} in isolation, can collectively help narrow down a pool of suspects or, in some cases, rule an individual {{5}}.
+
+The field gained particular prominence following its role in identifying the so-called Unabomber, whose distinctive vocabulary and syntax, once his manifesto was published, {{6}} a family member's suspicions and ultimately led to his arrest. Since then, forensic linguistics has been increasingly {{7}} upon in cases ranging from cyberbullying to corporate fraud.`,
+    gaps: [
+      { options: ['shed', 'cast', 'throw', 'shine'], answer: 0 },
+      { options: ['caution', 'care', 'restraint', 'reserve'], answer: 0 },
+      { options: ['fixed', 'stable', 'consistent', 'constant'], answer: 2 },
+      { options: ['focus', 'concentrate', 'centre', 'direct'], answer: 0 },
+      { options: ['conclusive', 'definitive', 'decisive', 'compelling'], answer: 0 },
+      { options: ['out', 'off', 'aside', 'away'], answer: 0 },
+      { options: ['confirmed', 'raised', 'aroused', 'triggered'], answer: 0 },
+      { options: ['drawn', 'called', 'relied', 'leaned'], answer: 0 },
+    ],
+  },
+  {
+    id: 'moe-p1-11',
+    part: 1,
+    title: 'La historia de la hora estandarizada',
+    text: `Before the arrival of railways, the precise time of day varied, often quite noticeably, from one town to the next, since each community traditionally {{0}} its clocks to local solar noon. This patchwork of slightly {{1}} local times caused little practical inconvenience so long as travel remained slow and communication infrequent.
+
+Railway companies, however, quickly found themselves grappling with a genuine operational {{2}}: published timetables became dangerously unreliable, and in some documented cases outright collisions, when each station along a line kept its own, {{3}} different, local time. The solution that gradually {{4}} was to adopt a single standardised time across an entire railway network, regardless of a station's actual longitude.
+
+What began as a purely practical railway convention {{5}} spread far beyond the rail industry itself, as towns and cities found it increasingly impractical to maintain a local time that {{6}} noticeably from the time observed by the trains passing through them. Within a few decades, most industrialised countries had formally {{7}} standardised time zones, bringing an end to centuries of purely local timekeeping.`,
+    gaps: [
+      { options: ['set', 'adjusted', 'aligned', 'synchronised'], answer: 0 },
+      { options: ['differing', 'varying', 'divergent', 'disparate'], answer: 0 },
+      { options: ['dilemma', 'predicament', 'quandary', 'conundrum'], answer: 1 },
+      { options: ['subtly', 'marginally', 'noticeably', 'slightly'], answer: 0 },
+      { options: ['emerged', 'materialised', 'evolved', 'arose'], answer: 0 },
+      { options: ['eventually', 'gradually', 'steadily', 'progressively'], answer: 0 },
+      { options: ['differed', 'varied', 'diverged', 'deviated'], answer: 0 },
+      { options: ['adopted', 'introduced', 'implemented', 'established'], answer: 0 },
+    ],
+  },
+  {
+    id: 'moe-p1-12',
+    part: 1,
+    title: 'La sinestesia',
+    text: `For most people, the various senses operate along entirely separate {{0}}, each processing its own type of input without interference from the others. For a small minority, however, sensory perception is far more entangled: sounds may reliably {{1}} specific colours, or written numbers may consistently {{2}} to occupy distinct positions in physical space, a phenomenon known as synaesthesia.
+
+Long dismissed by sceptical researchers as an elaborate metaphor rather than a genuine perceptual experience, synaesthesia has, over the past few decades, been {{3}} established through carefully controlled experiments as a real and measurably {{4}} neurological trait. Brain imaging studies have shown unusually {{5}} activity between sensory regions that, in most people, remain largely independent of one another.
+
+What makes synaesthesia particularly interesting to researchers is its remarkable {{6}}: the specific pairings each synaesthete experiences, a certain letter always {{7}} the colour red, for instance, tend to remain stable throughout that individual's entire life, even as memory for almost everything else inevitably shifts and fades.`,
+    gaps: [
+      { options: ['channels', 'tracks', 'lines', 'paths'], answer: 0 },
+      { options: ['evoke', 'trigger', 'summon', 'provoke'], answer: 0 },
+      { options: ['seem', 'appear', 'happen', 'tend'], answer: 0 },
+      { options: ['conclusively', 'definitively', 'firmly', 'soundly'], answer: 0 },
+      { options: ['distinct', 'discrete', 'separate', 'particular'], answer: 0 },
+      { options: ['heightened', 'elevated', 'increased', 'intensified'], answer: 0 },
+      { options: ['consistency', 'stability', 'permanence', 'constancy'], answer: 0 },
+      { options: ['producing', 'generating', 'yielding', 'prompting'], answer: 0 },
+    ],
+  },
+  {
+    id: 'moe-p1-13',
+    part: 1,
+    title: 'La historia de la anestesia',
+    text: `Before the mid-nineteenth century, surgery was, almost without exception, an ordeal to be {{0}} rather than a procedure to be calmly undergone, with patients typically restrained by assistants while surgeons worked as {{1}} as humanly possible to minimise suffering. The first public demonstration of ether as a surgical anaesthetic, performed in Boston in 1846, {{2}} transformed this grim calculus almost overnight, rendering painless operations that had previously been {{3}} unthinkable.
+
+News of the breakthrough spread with unusual {{4}}, reaching hospitals across Europe within months, a remarkable pace for an era largely dependent on ships and printed correspondence. Surgeons who had spent entire careers {{5}} to operate as quickly as possible, valuing speed above nearly every other consideration, suddenly found themselves able to work with an unfamiliar, almost {{6}} deliberateness.
+
+This newfound patience brought its own complications, however. Operations that anaesthesia made {{7}} to attempt in the first place grew correspondingly more ambitious and invasive, and, for several subsequent decades, surgical mortality from infection actually rose before antiseptic techniques eventually caught up.`,
+    gaps: [
+      { options: ['endured', 'suffered', 'withstood', 'survived'], answer: 0 },
+      { options: ['quickly', 'rapidly', 'swiftly', 'speedily'], answer: 0 },
+      { options: ['instantly', 'immediately', 'abruptly', 'suddenly'], answer: 0 },
+      { options: ['entirely', 'wholly', 'utterly', 'completely'], answer: 0 },
+      { options: ['speed', 'haste', 'urgency', 'rapidity'], answer: 3 },
+      { options: ['learning', 'training', 'striving', 'working'], answer: 0 },
+      { options: ['unnerving', 'uncomfortable', 'awkward', 'disconcerting'], answer: 0 },
+      { options: ['feasible', 'viable', 'practicable', 'possible'], answer: 0 },
+    ],
+  },
+  {
+    id: 'moe-p1-14',
+    part: 1,
+    title: 'El sesgo algorítmico en la contratación',
+    text: `As more companies {{0}} to automated systems to screen job applications, researchers have grown increasingly concerned about how easily such systems can {{1}} existing patterns of discrimination, often without any deliberate intention on the part of their designers. An algorithm trained on a company's historical hiring data will naturally {{2}} whatever biases, conscious or otherwise, shaped those past decisions, effectively encoding decades of human prejudice into what appears to be a neutral, purely {{3}} process.
+
+One widely reported case involved a major technology company that {{4}} an experimental recruitment tool after discovering it consistently downgraded résumés containing the word "women's," having learned, from historical data dominated by male hires, to associate {{5}} indicators of gender with lower suitability for technical roles. The company insists the tool was never used to make {{6}} hiring decisions, though the episode highlights how difficult these biases can be to detect before deployment.
+
+Regulators in several jurisdictions have since begun requiring companies to conduct regular audits of hiring algorithms, though critics argue that meaningful {{7}} remains difficult to enforce given how proprietary and technically opaque many of these systems remain.`,
+    gaps: [
+      { options: ['turn', 'resort', 'switch', 'shift'], answer: 0 },
+      { options: ['perpetuate', 'replicate', 'reproduce', 'entrench'], answer: 0 },
+      { options: ['absorb', 'inherit', 'internalise', 'assimilate'], answer: 1 },
+      { options: ['objective', 'impartial', 'neutral', 'rational'], answer: 0 },
+      { options: ['scrapped', 'abandoned', 'discontinued', 'shelved'], answer: 1 },
+      { options: ['certain', 'particular', 'specific', 'subtle'], answer: 0 },
+      { options: ['final', 'definitive', 'binding', 'conclusive'], answer: 0 },
+      { options: ['oversight', 'scrutiny', 'accountability', 'transparency'], answer: 0 },
+    ],
+  },
 ];
 
 // ---------------- PARTE 2: Open cloze ----------------
@@ -323,6 +443,120 @@ It was not {{3}} the early twentieth century that a Swedish-born engineer workin
       { answers: ['that'] },
     ],
   },
+  {
+    id: 'moe-p2-09',
+    part: 2,
+    title: 'El efecto Dunning-Kruger',
+    text: `Few psychological findings have entered popular culture quite {{0}} thoroughly, or quite as inaccurately, as the so-called Dunning-Kruger effect. In its original, carefully qualified form, the research simply suggested {{1}} people with limited competence in a particular skill often struggle to recognise the extent of their own limitations, precisely {{2}} the skills required to perform a task well overlap considerably with those required to judge one's own performance accurately.
+
+{{3}} popular retellings, however, have flattened this into something closer to a blanket claim that incompetent people are always supremely confident, {{4}} competent people are plagued by self-doubt. The original researchers themselves have repeatedly pushed back {{5}} this oversimplification, pointing out that the effect, {{6}} real, is considerably narrower and more context-dependent than viral infographics tend to suggest.
+
+{{7}} more nuanced version of the finding has struggled to compete with the punchier, more quotable misreading, a pattern arguably as interesting, in its own right, as the original research itself.`,
+    gaps: [
+      { answers: ['as'] },
+      { answers: ['that'] },
+      { answers: ['because', 'since'] },
+      { answers: ['subsequent', 'later'] },
+      { answers: ['while', 'whereas'] },
+      { answers: ['against'] },
+      { answers: ['while', 'though', 'although'] },
+      { answers: ['the'] },
+    ],
+  },
+  {
+    id: 'moe-p2-10',
+    part: 2,
+    title: 'La historia de la cuarentena',
+    text: `The word quarantine derives {{0}} the Italian quaranta giorni, meaning forty days, the period ships arriving in fourteenth-century Venice were required to wait offshore before passengers and crew {{1}} permitted ashore. City officials, having observed that plague outbreaks often followed the arrival of ships from infected ports, adopted the measure {{2}} any real understanding of germ theory, which would not be developed {{3}} centuries later.
+
+{{4}} its crude scientific basis, the practice proved remarkably effective, and variations of it {{5}} adopted by port cities across Europe over the following centuries. Enforcement, however, was often inconsistent, and wealthy or well-connected travellers {{6}} frequently found ways to avoid the full waiting period altogether.
+
+Modern quarantine protocols, grounded now in a far more sophisticated understanding of disease transmission, owe a debt, largely {{7}}, to this centuries-old and thoroughly unscientific Venetian precaution.`,
+    gaps: [
+      { answers: ['from'] },
+      { answers: ['were'] },
+      { answers: ['without'] },
+      { answers: ['until'] },
+      { answers: ['despite'] },
+      { answers: ['were'] },
+      { answers: ['quite', 'often'] },
+      { answers: ['unacknowledged'] },
+    ],
+  },
+  {
+    id: 'moe-p2-11',
+    part: 2,
+    title: 'Por qué olvidamos los sueños',
+    text: `Almost everyone has had the frustrating experience of waking {{0}} a vivid, detailed dream only to find the memory dissolving within minutes, sometimes {{1}} before breakfast is over. Sleep researchers have proposed several explanations for this near-universal forgetfulness, {{2}} of which has yet been definitively confirmed.
+
+One theory holds that the brain regions most active during dreaming, particularly {{3}} associated with emotion and sensory imagery, are simply poorly connected, during sleep, to the regions responsible {{4}} consolidating memories into long-term storage. {{5}} this account, dreams are not so much forgotten as never properly recorded {{6}} the first place.
+
+A competing explanation focuses instead {{7}} the abrupt, disorienting transition from sleep to waking, arguing that this transition itself disrupts the fragile process of memory consolidation, regardless of how vividly the dream was originally experienced.`,
+    gaps: [
+      { answers: ['from'] },
+      { answers: ['even'] },
+      { answers: ['none'] },
+      { answers: ['those'] },
+      { answers: ['for'] },
+      { answers: ['according to'] },
+      { answers: ['in'] },
+      { answers: ['on'] },
+    ],
+  },
+  {
+    id: 'moe-p2-12',
+    part: 2,
+    title: 'La etimología de "salary"',
+    text: `The word salary derives, somewhat surprisingly {{0}} modern ears, from the Latin word for salt, sal, {{1}} which Roman soldiers were reputedly paid, or at least partly compensated, given the mineral's considerable value {{2}} a food preservative in the ancient world. Whether soldiers were literally handed sacks of salt, {{3}} whether the word simply referred to an allowance {{4}} which salt, among other goods, could be purchased, remains a matter of some etymological debate among historians.
+
+{{5}} of the precise mechanics, the underlying connection between salt and payment persisted long enough {{6}} the language to leave a permanent linguistic trace, one that continues to shape how English speakers talk {{7}} wages centuries after salt itself ceased to hold any special economic significance.`,
+    gaps: [
+      { answers: ['to'] },
+      { answers: ['with'] },
+      { answers: ['as'] },
+      { answers: ['or'] },
+      { answers: ['with'] },
+      { answers: ['regardless'] },
+      { answers: ['in'] },
+      { answers: ['about'] },
+    ],
+  },
+  {
+    id: 'moe-p2-13',
+    part: 2,
+    title: 'Por qué se presurizan así las cabinas de los aviones',
+    text: `Commercial aircraft cabins are not, {{0}} many passengers assume, pressurised to match sea-level conditions throughout a flight, {{1}} to a somewhat lower equivalent, typically comparable to the air pressure found at a moderate mountain altitude. Maintaining true sea-level pressure at cruising altitude {{2}} require a substantially stronger, and therefore considerably heavier, aircraft structure, a trade-off engineers have generally judged {{3}} worth making given the fuel and cost implications.
+
+{{4}} passengers rarely notice the difference under normal circumstances, this reduced pressure does have measurable physiological effects, {{5}} a mild reduction in blood oxygen levels that can leave some travellers feeling unusually fatigued {{6}} disoriented during long flights. Airlines have little commercial incentive to increase cabin pressure further, {{7}} the vast majority of healthy passengers tolerate current levels without any noticeable difficulty.`,
+    gaps: [
+      { answers: ['as'] },
+      { answers: ['but'] },
+      { answers: ['would'] },
+      { answers: ['not'] },
+      { answers: ['while', 'although', 'though'] },
+      { answers: ['including'] },
+      { answers: ['or'] },
+      { answers: ['since', 'as'] },
+    ],
+  },
+  {
+    id: 'moe-p2-14',
+    part: 2,
+    title: 'La psicología de la nostalgia',
+    text: `For much of the twentieth century, nostalgia was widely regarded {{0}} a mild psychological affliction, a sentimental indulgence {{1}} best avoided rather than a genuinely useful emotional state worth cultivating deliberately. Contemporary psychologists have {{2}} reached a rather different conclusion, having found that nostalgic reflection, {{3}} triggered by a familiar song or a half-forgotten photograph, tends to leave people reporting greater feelings of social connectedness and psychological resilience afterwards.
+
+{{4}} particular interest to researchers is nostalgia's apparent role {{5}} a coping mechanism during periods of loneliness or uncertainty, moments {{6}} people are statistically more likely to report nostalgic thoughts occurring spontaneously, almost as though the mind were reaching backwards for reassurance {{7}} it could not immediately locate in the present moment.`,
+    gaps: [
+      { answers: ['as'] },
+      { answers: ['best'] },
+      { answers: ['since'] },
+      { answers: ['whether'] },
+      { answers: ['of'] },
+      { answers: ['as'] },
+      { answers: ['when'] },
+      { answers: ['that', 'which'] },
+    ],
+  },
 ];
 
 // ---------------- PARTE 3: Word formation ----------------
@@ -439,6 +673,116 @@ Archivists working today face a race against time with the prints that do surviv
       { root: 'DETERIORATE', answers: ['deteriorated'] },
       { root: 'DEGRADE', answers: ['degrades'] },
       { root: 'EQUIP', answers: ['equipment'] },
+    ],
+  },
+  {
+    id: 'moe-p3-07',
+    part: 3,
+    title: 'La neurociencia de los hábitos',
+    text: `Habits, neuroscientists have found, are governed by a distinct and surprisingly {{0}} region of the brain, one that operates largely outside conscious {{1}}. Once a behaviour has been repeated often enough in a stable context, control gradually shifts away from the more {{2}} decision-making circuits and towards this more automatic system, a process that explains both the {{3}} of long-established habits and the {{4}} of trying to break them through willpower alone.
+
+This {{5}} has significant implications for anyone attempting genuine behavioural change. Rather than relying on sheer {{6}}, which tends to fade under stress or fatigue, the most effective interventions typically work by altering the environmental cues that trigger a habit in the first place, making the old behaviour less {{7}} and a new one easier to initiate.`,
+    gaps: [
+      { root: 'ISOLATE', answers: ['isolated'] },
+      { root: 'AWARE', answers: ['awareness'] },
+      { root: 'REASON', answers: ['reasoned'] },
+      { root: 'PERSIST', answers: ['persistence'] },
+      { root: 'DIFFICULT', answers: ['difficulty'] },
+      { root: 'UNDERSTAND', answers: ['understanding'] },
+      { root: 'DETERMINE', answers: ['determination'] },
+      { root: 'AUTOMATE', answers: ['automatic'] },
+    ],
+  },
+  {
+    id: 'moe-p3-08',
+    part: 3,
+    title: 'El auge del "quiet quitting"',
+    text: `The phrase quiet quitting, despite its {{0}} name, does not actually describe employees resigning from their jobs at all, a source of considerable {{1}} when the term first went viral online. Instead, it refers to a deliberate {{2}} to do precisely what a job requires, no more and no less, rather than routinely volunteering for {{3}} tasks or working unpaid overtime out of a sense of obligation.
+
+Critics of the trend have described it as a symptom of growing employee {{4}}, while its defenders frame it instead as a healthy, {{5}} response to workplace cultures that had come to expect {{6}} sacrifice as the price of basic job security. Whichever interpretation proves more accurate, the sheer {{7}} of the term suggests it tapped into something many workers had been feeling for some time, even if few had a ready word for it before.`,
+    gaps: [
+      { root: 'MISLEAD', answers: ['misleading'] },
+      { root: 'CONFUSE', answers: ['confusion'] },
+      { root: 'DECIDE', answers: ['decision'] },
+      { root: 'ADD', answers: ['additional'] },
+      { root: 'DISENGAGE', answers: ['disengagement'] },
+      { root: 'JUSTIFY', answers: ['justified'] },
+      { root: 'LIMIT', answers: ['limitless'] },
+      { root: 'POPULAR', answers: ['popularity'] },
+    ],
+  },
+  {
+    id: 'moe-p3-09',
+    part: 3,
+    title: 'La política de nombrar huracanes',
+    text: `The practice of assigning short, memorable human names to hurricanes might seem like a purely {{0}} matter, but the history behind it is considerably more contested than most people realise. Early twentieth-century meteorologists, working without today's satellite {{1}}, relied on names largely to avoid the confusion of tracking several storms {{2}} using only technical coordinates.
+
+For decades, storms were given exclusively female names, a convention that drew growing {{3}} from campaigners who argued it reinforced unhelpful gender {{4}}. The practice was eventually changed to alternate between male and female names, though the shift was not achieved without considerable institutional {{5}}.
+
+Today's naming system, overseen by an international meteorological body, retires the names of especially {{6}} storms permanently, out of {{7}} for the communities affected, ensuring a name like Katrina or Sandy is never reused for a future hurricane.`,
+    gaps: [
+      { root: 'ADMINISTER', answers: ['administrative'] },
+      { root: 'IMAGE', answers: ['imagery'] },
+      { root: 'SIMULTANEOUS', answers: ['simultaneously'] },
+      { root: 'CRITIC', answers: ['criticism'] },
+      { root: 'STEREOTYPE', answers: ['stereotypes'] },
+      { root: 'RESIST', answers: ['resistance'] },
+      { root: 'DESTROY', answers: ['destructive'] },
+      { root: 'CONSIDER', answers: ['consideration'] },
+    ],
+  },
+  {
+    id: 'moe-p3-10',
+    part: 3,
+    title: 'El auge de las "ghost kitchens"',
+    text: `The restaurant industry has witnessed the rapid {{0}} of so-called ghost kitchens: commercial cooking spaces designed exclusively for delivery, with no dining room, signage or public-facing {{1}} whatsoever. Freed from the considerable {{2}} of prime retail locations, operators can run several distinct delivery-only brands from a single kitchen, each carefully {{3}} to appeal to a different segment of app-based delivery customers.
+
+Critics argue the model prioritises {{4}} over culinary craft, since a menu's success increasingly depends on how {{5}} it photographs and how efficiently it survives a twenty-minute delivery journey rather than on any genuinely {{6}} cooking. Defenders counter that the model has made {{7}} entrepreneurship possible for cooks who could never otherwise have afforded a traditional restaurant's overhead costs.`,
+    gaps: [
+      { root: 'PROLIFERATE', answers: ['proliferation'] },
+      { root: 'PRESENT', answers: ['presence'] },
+      { root: 'COST', answers: ['costliness'] },
+      { root: 'TAILOR', answers: ['tailored'] },
+      { root: 'EFFICIENT', answers: ['efficiency'] },
+      { root: 'ATTRACT', answers: ['attractively'] },
+      { root: 'INNOVATE', answers: ['innovative'] },
+      { root: 'SUSTAIN', answers: ['sustainable'] },
+    ],
+  },
+  {
+    id: 'moe-p3-11',
+    part: 3,
+    title: 'Por qué persiste la zurdera',
+    text: `Left-handedness has remained a stable {{0}} of roughly one in ten people across virtually every studied human population and historical period, a remarkable {{1}} given that left-handed individuals have faced, across many cultures and centuries, genuine social and even physical {{2}}. Tools, instruments and everyday objects have historically been designed with an overwhelming right-handed {{3}}, and left-handed children were, within living memory, actively discouraged, sometimes forcibly, from using their {{4}} hand at all.
+
+Evolutionary biologists have proposed several {{5}} explanations for why such an apparently {{6}} trait has never been fully eliminated by these pressures. One influential theory suggests left-handedness may offer a subtle {{7}} advantage in physical confrontation, since opponents accustomed to facing right-handed attackers are less practised at anticipating a left-handed one.`,
+    gaps: [
+      { root: 'PROPORTION', answers: ['proportion'] },
+      { root: 'CONSIST', answers: ['consistency'] },
+      { root: 'ADVANTAGE', answers: ['disadvantages'] },
+      { root: 'ORIENT', answers: ['orientation'] },
+      { root: 'PREFER', answers: ['preferred'] },
+      { root: 'COMPETE', answers: ['competing'] },
+      { root: 'DISADVANTAGE', answers: ['disadvantageous'] },
+      { root: 'TACTIC', answers: ['tactical'] },
+    ],
+  },
+  {
+    id: 'moe-p3-12',
+    part: 3,
+    title: 'La economía de las regalías del streaming',
+    text: `Musicians and actors who built careers under the older system of album sales and syndicated television {{0}} have often struggled to adjust to the considerably {{1}} economics of streaming-era compensation. Where a hit song once generated steady {{2}} income for years through radio play and physical sales, streaming platforms typically pay {{3}} amounts per play, a model that rewards {{4}} volume over lasting popularity in ways many veteran performers find genuinely {{5}}.
+
+Younger artists, having never known the older system, often display a more {{6}} attitude toward these economics, treating streaming primarily as a {{7}} for building an audience that can later be monetised through touring, merchandise or brand partnerships rather than through the recordings themselves.`,
+    gaps: [
+      { root: 'REPEAT', answers: ['repeats'] },
+      { root: 'PREDICT', answers: ['unpredictable'] },
+      { root: 'RESIDE', answers: ['residual'] },
+      { root: 'NEGLECT', answers: ['negligible'] },
+      { root: 'MASS', answers: ['massive'] },
+      { root: 'FRUSTRATE', answers: ['frustrating'] },
+      { root: 'PRACTICE', answers: ['practical'] },
+      { root: 'LAUNCH', answers: ['launchpad'] },
     ],
   },
 ];

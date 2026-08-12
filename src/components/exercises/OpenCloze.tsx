@@ -41,11 +41,11 @@ export function OpenCloze({
                 disabled={checked}
                 value={values[seg.index] ?? ''}
                 onChange={(e) => setValues((v) => ({ ...v, [seg.index]: e.target.value }))}
-                className={`w-24 text-center px-1.5 py-0.5 rounded-sm border text-sm font-medium bg-white focus-ring ${
+                className={`w-24 text-center px-1.5 py-0.5 rounded-lg border text-sm font-medium bg-white focus-ring ${
                   checked
                     ? isCorrect(seg.index)
                       ? 'bg-correctSoft border-correct text-correct'
-                      : 'bg-[#F4DEDF] border-pen text-pen'
+                      : 'bg-penSoft/25 border-pen text-pen'
                     : 'border-ink/20'
                 }`}
               />

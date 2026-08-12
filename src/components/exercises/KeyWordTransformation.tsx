@@ -43,11 +43,11 @@ export function KeyWordTransformation({
               disabled={checked}
               value={values[i] ?? ''}
               onChange={(e) => setValues((v) => ({ ...v, [i]: e.target.value }))}
-              className={`min-w-[220px] flex-1 px-2 py-1 rounded-sm border text-sm bg-white focus-ring ${
+              className={`min-w-[220px] flex-1 px-2 py-1 rounded-lg border text-sm bg-white focus-ring ${
                 checked
                   ? isCorrect(i)
                     ? 'bg-correctSoft border-correct text-correct'
-                    : 'bg-[#F4DEDF] border-pen text-pen'
+                    : 'bg-penSoft/25 border-pen text-pen'
                   : 'border-ink/20'
               }`}
             />

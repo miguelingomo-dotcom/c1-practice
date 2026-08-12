@@ -41,11 +41,11 @@ export function MultipleChoiceCloze({
             <span key={i} className="inline-flex items-baseline mx-1 align-middle">
               <span className="font-mono text-xs text-pen mr-1">({seg.index + 1})</span>
               <span
-                className={`px-2 py-0.5 rounded-sm border text-sm font-medium ${
+                className={`px-2 py-0.5 rounded-lg border text-sm font-medium ${
                   checked
                     ? selected[seg.index] === exercise.gaps[seg.index].answer
                       ? 'bg-correctSoft border-correct text-correct'
-                      : 'bg-[#F4DEDF] border-pen text-pen'
+                      : 'bg-penSoft/25 border-pen text-pen'
                     : 'bg-white border-ink/20'
                 }`}
               >
@@ -72,13 +72,13 @@ export function MultipleChoiceCloze({
                     key={oi}
                     disabled={checked}
                     onClick={() => setSelected((s) => ({ ...s, [i]: oi }))}
-                    className={`px-2.5 py-1 text-sm rounded-sm border focus-ring transition-colors ${
+                    className={`px-2.5 py-1 text-sm rounded-lg border focus-ring transition-colors ${
                       isCorrectOpt
                         ? 'bg-correctSoft border-correct text-correct'
                         : isWrongSelected
-                          ? 'bg-[#F4DEDF] border-pen text-pen'
+                          ? 'bg-penSoft/25 border-pen text-pen'
                           : isSelected
-                            ? 'bg-ink text-paper border-ink'
+                            ? 'bg-accent text-white border-accent shadow-sm shadow-accent/30'
                             : 'bg-white border-ink/20 hover:border-ink/50'
                     }`}
                   >

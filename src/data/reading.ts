@@ -539,6 +539,462 @@ Whether lab-grown meat eventually becomes a mainstream product or remains a cost
       },
     ],
   },
+  {
+    id: 'read-p5-08',
+    part: 5,
+    title: 'La extraña economía del precio de las entradas de conciertos',
+    text: `Anyone who has watched a favourite artist's tour tickets vanish within minutes, only to reappear soon afterwards on resale sites at several times their face value, might reasonably wonder why the original seller did not simply charge more in the first place. Economists have puzzled over this question for decades, and the standard explanation, that promoters are simply leaving money on the table through inefficient pricing, turns out to be considerably less complete than it first appears.
+
+Artists and promoters, it emerges, frequently have reasons to keep face-value prices well below what the market alone would bear. Chief among these is a concern for long-term reputation: fans who feel gouged by exorbitant prices are less likely to remain loyal customers over an artist's career, and word of a greedy pricing strategy can spread through fan communities with damaging speed. A band selling out arenas at a modest price, by contrast, cultivates a sense of goodwill and accessibility that a purely profit-maximising price would actively undermine.
+
+There is also a subtler, more structural explanation rooted in how ticket demand actually behaves. Unlike ordinary goods, concert tickets attract wildly uneven demand depending on factors an artist cannot easily predict months in advance, a surprise hit single, a viral moment, an awards nomination. Setting a price low enough to sell comfortably under ordinary circumstances leaves useful headroom for these unpredictable surges in popularity, without requiring promoters to guess correctly, and expensively, ahead of time.
+
+None of this, critics point out, does much to help the fan who simply wants to attend a show at something resembling a fair price. Secondary ticketing platforms, whatever justification economists might offer for the underlying pricing gap, still capture enormous value that neither the artist nor the original fan ever sees, redirecting it instead to resellers whose only contribution was buying early and reselling later.
+
+Some artists have experimented with alternatives: dynamic pricing that rises with demand, verified fan pre-sales designed to filter out professional resellers, or personalised, non-transferable tickets tied to a buyer's identity. Each approach addresses part of the problem while introducing new complications of its own, suggesting that no single fix is likely to satisfy artists, promoters and fans simultaneously, and that ticket pricing will likely remain an uneasy compromise rather than a solved problem.`,
+    questions: [
+      {
+        question: 'What does the writer say about the standard explanation for underpriced tickets?',
+        options: [
+          'It has been thoroughly disproven by recent economic research.',
+          'It is accurate but only applies to a small number of major artists.',
+          'It captures only part of a more complicated picture.',
+          'It was originally proposed by promoters themselves to justify their pricing.',
+        ],
+        answer: 2,
+      },
+      {
+        question: 'According to the second paragraph, why might artists deliberately price tickets below market value?',
+        options: [
+          'To comply with legal restrictions on ticket pricing.',
+          "To protect their long-term relationship with fans.",
+          'To ensure tickets sell out as quickly as possible for publicity purposes.',
+          'To discourage resale platforms from operating at all.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What point does the third paragraph make about concert ticket demand?',
+        options: [
+          'It is generally easier to predict than demand for other goods.',
+          "It remains fairly constant regardless of an artist's recent activity.",
+          'Its unpredictability gives promoters a practical reason to underprice tickets.',
+          'It has become more predictable due to improved forecasting tools.',
+        ],
+        answer: 2,
+      },
+      {
+        question: 'What criticism is raised in the fourth paragraph?',
+        options: [
+          'Artists earn too much money from ticket sales at the expense of fans.',
+          'Resale platforms benefit from the pricing gap without adding real value.',
+          'Promoters deliberately collaborate with resale platforms for profit.',
+          'Fans are ultimately responsible for inflated resale prices.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What does the writer suggest about the alternative approaches mentioned in the final paragraph?',
+        options: [
+          'They have completely solved the problem of ticket resale.',
+          'They are unlikely to be adopted by any major artists.',
+          'Each one addresses the issue only partially and creates new problems.',
+          'They have made ticket prices significantly higher for ordinary fans.',
+        ],
+        answer: 2,
+      },
+      {
+        question: "Which best summarises the writer's overall argument?",
+        options: [
+          'Ticket pricing is inefficient and could easily be fixed with the right technology.',
+          'The gap between face value and resale price reflects a genuinely complex set of trade-offs.',
+          'Artists are primarily to blame for the problems in ticket pricing.',
+          'Resale platforms provide an essential and fair service to fans.',
+        ],
+        answer: 1,
+      },
+    ],
+  },
+  {
+    id: 'read-p5-09',
+    part: 5,
+    title: 'Cómo los pulpos desafían nuestra idea de la inteligencia',
+    text: `Few animals unsettle our assumptions about intelligence quite as thoroughly as the octopus. Separated from vertebrates by roughly half a billion years of independent evolution, octopuses arrived at complex problem-solving abilities through an entirely different evolutionary route, one with no shared ancestor even remotely resembling a brain-centred nervous system as mammals understand it.
+
+Rather than concentrating cognitive processing in a single, centralised brain, an octopus distributes roughly two-thirds of its neurons across its eight arms, each of which can process sensory information and initiate movement with a striking degree of autonomy from the central brain. An octopus can, in a sense, delegate certain problem-solving tasks directly to a single arm, which continues to explore, grip and manipulate objects even when severed from the animal's body, at least for a short period, a fact that has led some researchers to describe octopus cognition as genuinely distributed rather than centralised in any conventional sense.
+
+This unusual architecture raises awkward questions for scientists accustomed to studying intelligence primarily in vertebrates, where a reasonably direct comparison of brain size, structure and behaviour has traditionally underpinned most claims about relative intelligence. Octopuses solve mazes, open jars, recognise individual human faces and have been observed engaging in what looks remarkably like play, all despite lacking nearly every neurological feature researchers once considered prerequisites for such behaviour.
+
+Complicating matters further, octopuses are almost entirely solitary and short-lived, typically surviving only a year or two, which rules out the most common evolutionary explanation for advanced cognition in other species: the demands of navigating complex, long-term social relationships. Whatever pressures shaped octopus intelligence, they evidently had little to do with remembering who owes whom a favour within a stable social group, the explanation most often invoked for primate intelligence.
+
+Some researchers now argue that studying octopus cognition seriously requires setting aside inherited assumptions drawn almost entirely from vertebrate biology, and building instead a genuinely new framework for what intelligence can look like when it evolves along a radically different anatomical path. Whether such a framework will ultimately reshape how scientists define intelligence more broadly, or simply be treated as a fascinating exception confined to a single unusual branch of the animal kingdom, remains very much an open question.`,
+    questions: [
+      {
+        question: 'What does the writer emphasise about octopus intelligence in the first paragraph?',
+        options: [
+          'It evolved through a completely separate evolutionary path from vertebrate intelligence.',
+          'It has only recently been recognised as genuine intelligence by scientists.',
+          'It is less sophisticated than vertebrate intelligence despite superficial similarities.',
+          'It developed directly from an early form of vertebrate brain structure.',
+        ],
+        answer: 0,
+      },
+      {
+        question: 'What is unusual about how octopuses process information, according to the second paragraph?',
+        options: [
+          'Their arms are entirely incapable of independent movement.',
+          'Most of their neurons are located outside a central brain.',
+          'They rely on a single, highly centralised brain structure.',
+          'Their nervous system is structurally identical to that of vertebrates.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'Why does octopus cognition raise difficulties for researchers, according to the third paragraph?',
+        options: [
+          'Octopuses have proven impossible to study in laboratory conditions.',
+          "Traditional methods rely on comparisons that don't easily apply to octopuses.",
+          'Researchers have been unable to observe any complex behaviour in octopuses.',
+          'Octopus behaviour is too similar to vertebrate behaviour to be informative.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What does the fourth paragraph suggest about the origins of octopus intelligence?',
+        options: [
+          'It likely developed for reasons similar to primate social intelligence.',
+          'It cannot be explained by the usual social explanations used for other species.',
+          'It is primarily explained by the need to avoid predators.',
+          'It developed mainly to support long-term relationships between octopuses.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What do some researchers argue in the final paragraph?',
+        options: [
+          'Octopus intelligence should be dismissed as biologically irrelevant.',
+          'A new framework may be needed to properly understand octopus cognition.',
+          'Vertebrate-based models of intelligence apply equally well to octopuses.',
+          'Octopus intelligence has already been fully explained by existing theories.',
+        ],
+        answer: 1,
+      },
+      {
+        question: "What is the writer's overall stance in the passage?",
+        options: [
+          'Confident that octopus intelligence will soon be fully understood.',
+          'Sceptical that octopuses possess any genuine intelligence at all.',
+          'Presenting octopus cognition as a genuine challenge to existing assumptions.',
+          'Arguing that octopus intelligence is overstated by researchers seeking attention.',
+        ],
+        answer: 2,
+      },
+    ],
+  },
+  {
+    id: 'read-p5-10',
+    part: 5,
+    title: 'La crisis silenciosa de la traducción',
+    text: `Literary translation has always occupied an odd, faintly paradoxical position within publishing: essential to how readers encounter work from outside their own language, yet chronically undervalued in ways that rarely attract the attention given to more visible crises in the industry. Translators are typically paid a flat fee rather than royalties tied to a book's eventual success, meaning that a translator whose skilful rendering helps a novel become an international bestseller often sees no direct financial benefit from that success at all.
+
+This structural undervaluing has become harder to ignore as publishers, facing tightening margins across the industry, have grown increasingly interested in machine translation as a cost-cutting measure, at least for certain categories of text. While few serious publishers currently trust automated systems with literary fiction, where tone, rhythm and cultural nuance resist easy mechanical reproduction, the technology has already made significant inroads into genre fiction, technical manuals and other text considered less dependent on a translator's individual voice.
+
+Translators themselves tend to view this shift with a complicated mixture of concern and cautious pragmatism. Few believe machine translation is anywhere close to matching a skilled human translator's ability to navigate ambiguity, wordplay or culturally specific reference, particularly in literary work where a translator's interpretive choices meaningfully shape how a text ultimately reads. At the same time, many report using machine translation tools themselves as a starting point for their own work, a practice that raises uncomfortable questions about how such assistance should be acknowledged, or compensated, within a system already reluctant to properly value translators' labour.
+
+Publishers, for their part, argue that economic pressures leave them with limited room for manoeuvre, particularly for books unlikely to sell in large enough quantities to justify traditional translation costs. Whether this represents a pragmatic adaptation to a genuinely difficult market or the beginning of a more troubling erosion of translation as a skilled, interpretive craft remains a matter of considerable disagreement within the industry itself.
+
+What seems clear, whatever position one takes in this debate, is that the conversation happening around translation technology is unlikely to be resolved by technological capability alone. It touches on deeper, harder questions about what readers actually want from translated literature, and how much interpretive labour, invisible as it often is to the reader, they are willing to have publishers quietly automate away.`,
+    questions: [
+      {
+        question: 'What does the writer say about how translators are typically paid?',
+        options: [
+          'They earn royalties proportional to how well a book sells internationally.',
+          "They receive a fixed fee regardless of a book's eventual success.",
+          "Their pay has recently increased due to rising demand for translation.",
+          'They are paid more for literary fiction than for other types of text.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'According to the second paragraph, where has machine translation made the most progress?',
+        options: [
+          'In literary fiction requiring subtle interpretation of tone and culture.',
+          "In areas considered less reliant on a translator's individual style.",
+          'In poetry, due to its highly structured and repetitive language.',
+          'Across all categories of text equally, according to publishers.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What complicated attitude do translators have towards machine translation, according to the third paragraph?',
+        options: [
+          'They reject it entirely and refuse to engage with the technology at all.',
+          'They are concerned about it but sometimes use it in their own work.',
+          'They believe it already matches human translators in literary contexts.',
+          'They are indifferent to its potential impact on their profession.',
+        ],
+        answer: 1,
+      },
+      {
+        question: "What issue does the writer raise regarding translators' use of machine translation tools?",
+        options: [
+          'It is illegal under most publishing contracts.',
+          'It raises unresolved questions about acknowledgement and compensation.',
+          'It has made translators significantly less skilled over time.',
+          'It has been banned by most major publishing houses.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What justification do publishers offer for turning to machine translation?',
+        options: [
+          'They believe it produces higher-quality translations than human translators.',
+          'They face economic pressures that limit their options for certain books.',
+          'They are required to do so by international publishing regulations.',
+          'They believe readers actively prefer machine-translated text.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What does the final paragraph suggest about the future of this debate?',
+        options: [
+          'It will be resolved once machine translation technology improves further.',
+          'It involves questions beyond simply what technology is currently capable of.',
+          "It is likely to be settled entirely in favour of publishers' interests.",
+          'It has already been resolved through industry-wide agreement.',
+        ],
+        answer: 1,
+      },
+    ],
+  },
+  {
+    id: 'read-p5-11',
+    part: 5,
+    title: 'La extraña ciencia del contagio de la risa',
+    text: `Laughter spreads between people with a speed and reliability that few other human behaviours can match, a phenomenon so robust that television networks have relied on recorded laugh tracks for decades specifically to exploit it, despite viewers' near-universal awareness that the laughter they are hearing is entirely artificial. This apparent contradiction, knowingly responding to laughter we consciously recognise as fake, has puzzled researchers studying the psychology of humour for years.
+
+Part of the explanation lies in how deeply laughter appears wired into social bonding rather than purely into humour appreciation. Studies tracking laughter in naturalistic settings have found that the overwhelming majority of laughs occur not in response to anything genuinely funny, but as a social signal punctuating ordinary conversation, agreement, reassurance, a softening of potentially awkward moments. Laughter, on this account, functions less like a response to comedy and more like a form of vocal grooming, reinforcing social bonds in ways that predate anything resembling structured jokes.
+
+This social function may help explain why laughter proves so contagious even when its source is transparently manufactured. Hearing laughter, genuine or recorded, appears to activate neural circuits associated with anticipating social connection, triggering an urge to join in that operates largely independently of whether the listener consciously finds anything amusing. Some researchers have drawn comparisons with yawning, another behaviour that spreads between people through mechanisms seemingly unrelated to its original biological purpose.
+
+Not all attempts to exploit this contagion succeed equally well, however. Laugh tracks calibrated too heavily, playing constantly regardless of actual comedic content, tend to produce the opposite effect, generating irritation rather than amusement once audiences consciously register the manipulation as excessive or poorly timed. The most effective examples, television editors report, are those deployed sparingly enough that viewers remain only dimly aware of the technique at all.
+
+What laughter contagion ultimately reveals, perhaps, is less about comedy specifically than about how thoroughly social our emotional responses remain, even in solitary situations like watching television alone, and even when we know, with complete conscious certainty, that we are responding to something entirely artificial.`,
+    questions: [
+      {
+        question: 'What puzzle does the writer identify in the first paragraph?',
+        options: [
+          'Why laugh tracks have become less common on television in recent years.',
+          'Why people respond to laughter they know is not genuine.',
+          'Why some viewers find laugh tracks more convincing than others.',
+          'Why television networks continue to invest in expensive comedy writing.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'According to the second paragraph, most laughter occurs',
+        options: [
+          'in direct response to jokes or comedic content.',
+          'as a social signal unrelated to genuine humour.',
+          'only in formal social settings among strangers.',
+          'primarily among people who know each other well.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What comparison does the writer make in the third paragraph?',
+        options: [
+          'Laughter and yawning both spread through similar, largely automatic mechanisms.',
+          'Laughter is a uniquely human behaviour with no parallel elsewhere.',
+          'Recorded laughter is less effective than genuine laughter at triggering contagion.',
+          'Yawning and laughter serve entirely unrelated evolutionary purposes.',
+        ],
+        answer: 0,
+      },
+      {
+        question: 'What does the fourth paragraph say about overused laugh tracks?',
+        options: [
+          'They are the most effective way to guarantee audience amusement.',
+          'They can cause irritation once viewers notice them too clearly.',
+          'They have no measurable effect on how audiences respond.',
+          'They work best when used constantly throughout a programme.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'According to television editors mentioned in the passage, effective laugh tracks are',
+        options: [
+          'used as frequently as possible throughout a show.',
+          'used sparingly enough to remain barely noticeable.',
+          'avoided entirely in modern comedy production.',
+          'only effective when combined with genuinely funny writing.',
+        ],
+        answer: 1,
+      },
+      {
+        question: "What is the writer's overall conclusion about laughter contagion?",
+        options: [
+          'It proves that most comedy relies entirely on manipulation.',
+          'It reveals how deeply social our emotional responses remain, even alone.',
+          'It shows that audiences are generally unaware of being manipulated.',
+          'It demonstrates that laugh tracks should be removed from television entirely.',
+        ],
+        answer: 1,
+      },
+    ],
+  },
+  {
+    id: 'read-p5-12',
+    part: 5,
+    title: 'Cómo el contenedor de transporte estandarizado transformó el comercio mundial',
+    text: `Before the widespread adoption of the standardised shipping container in the mid-twentieth century, loading and unloading a cargo ship was an extraordinarily labour-intensive affair, involving armies of dockworkers manually handling individual crates, sacks and barrels of wildly varying shapes and sizes. A single ship might spend more time sitting in port being loaded than it spent actually at sea, and the process was expensive, slow and genuinely dangerous, with dock injuries a routine occupational hazard.
+
+The solution, when it finally arrived, was almost disarmingly simple: a standardised steel box, identical in dimensions regardless of what it contained or which shipping line operated it, that could be lifted directly from a truck onto a ship, and later from a ship onto a train, without ever being opened or repacked along the way. What made the innovation genuinely transformative, however, was not the container itself so much as the industry-wide standardisation that eventually followed, allowing containers from any manufacturer to fit seamlessly onto any compatible ship, crane or rail car anywhere in the world.
+
+This standardisation did not happen quickly or without considerable resistance. Competing shipping companies initially favoured incompatible container sizes, each hoping their particular standard would eventually dominate the industry, and dockworkers' unions, correctly anticipating that containerisation would eliminate the vast majority of manual loading jobs, resisted the change through strikes and prolonged negotiation in several major ports.
+
+The economic consequences, once standardisation was finally achieved, proved difficult to overstate. Shipping costs fell dramatically, port turnaround times shrank from days to hours, and manufacturing became increasingly feasible in distant, lower-cost locations, since transporting finished goods across oceans no longer added prohibitive expense to a product's final price. Many economists now regard containerisation as at least as significant a driver of modern globalisation as any trade agreement or communications technology developed during the same period.
+
+What is easily overlooked in retrospect is how contingent this transformation actually was on a specific act of coordination, an entire industry agreeing on shared physical dimensions, rather than on any single technological breakthrough. The steel box itself required no particularly advanced engineering; what it required was universal agreement, something considerably harder to engineer than steel.`,
+    questions: [
+      {
+        question: 'What does the first paragraph say about cargo handling before containerisation?',
+        options: [
+          'It was relatively quick but extremely dangerous for workers.',
+          'It was slow, costly and physically hazardous for dockworkers.',
+          'It mainly involved automated machinery rather than manual labour.',
+          'It was primarily limited to a small number of major ports.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'According to the second paragraph, what made the container truly transformative?',
+        options: [
+          'The specific material used to construct the containers.',
+          'The fact that containers could be manufactured very cheaply.',
+          'The industry-wide agreement on standardised dimensions.',
+          'The invention of new types of cranes to lift the containers.',
+        ],
+        answer: 2,
+      },
+      {
+        question: 'What does the third paragraph say about resistance to standardisation?',
+        options: [
+          'It came mainly from governments rather than industry groups.',
+          'It came from shipping companies and dockworkers for different reasons.',
+          'It was quickly overcome without any significant disruption.',
+          'It mainly concerned the environmental impact of shipping containers.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What economic effect of containerisation is described in the fourth paragraph?',
+        options: [
+          'It made manufacturing in distant locations more economically viable.',
+          'It significantly increased the cost of transporting finished goods.',
+          'It had little measurable effect on global manufacturing patterns.',
+          'It mainly benefited manufacturers based near major ports.',
+        ],
+        answer: 0,
+      },
+      {
+        question: 'What point does the writer make in the final paragraph?',
+        options: [
+          'The technological engineering behind containers was extremely advanced.',
+          'The real challenge was achieving industry-wide coordination, not technology.',
+          'Containerisation succeeded despite a lack of any real coordination.',
+          'Modern shipping still relies on the exact same container design used originally.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'Which best summarises the overall argument of the passage?',
+        options: [
+          'Containerisation was primarily driven by a single revolutionary invention.',
+          'A simple idea became transformative largely through industry-wide standardisation.',
+          "Dockworkers' resistance ultimately prevented containerisation from succeeding.",
+          'Containerisation has had minimal long-term impact on global trade.',
+        ],
+        answer: 1,
+      },
+    ],
+  },
+  {
+    id: 'read-p5-13',
+    part: 5,
+    title: 'El efecto placebo en la cirugía',
+    text: `Placebo effects are widely associated with pills and injections, harmless sugar tablets that nonetheless produce measurable improvements simply because a patient believes they are receiving genuine treatment. Less widely appreciated is that placebo effects extend, in some documented cases, even to surgery itself, a finding that has proven deeply uncomfortable for parts of the medical establishment to fully absorb.
+
+In a small number of rigorously designed clinical trials, researchers have compared a genuine surgical procedure against a sham operation, one in which patients are anaesthetised, an incision is made, and the surgical team goes through the motions of an operation without actually performing the key therapeutic step under investigation. Remarkably, in several such trials involving certain orthopaedic and cardiac procedures, patients who received the sham surgery reported pain relief and functional improvement statistically indistinguishable from those who received the genuine operation.
+
+These findings do not imply that surgery in general is merely elaborate theatre, nor that most surgical procedures lack genuine therapeutic value; the vast majority of operations, particularly those addressing structural problems like fractures or blocked arteries, produce clear, mechanistically explicable benefits that no placebo could plausibly replicate. What the sham-surgery trials do suggest is that for a specific subset of procedures, particularly those addressing chronic pain with a significant psychological component, the ritual and expectation surrounding surgery may itself constitute a meaningful part of any benefit observed.
+
+This raises uncomfortable ethical questions that the medical profession has been slow to address directly. Conducting sham-surgery trials requires deceiving patients, at least temporarily, about what procedure they actually received, a practice that sits uneasily alongside standard requirements for informed consent, even when patients are told in advance that they might receive a sham procedure as part of the trial's design.
+
+Some researchers argue that these findings should prompt more routine sham-controlled trials before certain surgical procedures become standard practice, particularly for interventions whose benefits rest on comparatively weak evidence. Surgeons, understandably protective of procedures they have spent careers refining and genuinely believe help their patients, have often resisted this suggestion, creating a persistent and unresolved tension between rigorous evidence-gathering and established surgical practice.`,
+    questions: [
+      {
+        question: 'What does the first paragraph say about placebo effects?',
+        options: [
+          'They are limited entirely to pills and injections.',
+          'They may extend to surgical procedures as well as medication.',
+          'They have been thoroughly discredited by recent medical research.',
+          'They only occur when patients are unaware they are part of a trial.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What do sham-surgery trials involve, according to the second paragraph?',
+        options: [
+          'Patients receiving no medical attention of any kind.',
+          'A genuine operation being compared against no treatment at all.',
+          'Patients undergoing surgical preparation without the key therapeutic step.',
+          'Surgeons openly telling patients they are receiving a fake procedure.',
+        ],
+        answer: 2,
+      },
+      {
+        question: 'What does the writer clarify in the third paragraph?',
+        options: [
+          'That most surgery has no genuine therapeutic benefit at all.',
+          'That the placebo effect applies equally to every type of surgery.',
+          'That certain procedures still provide clear, non-placebo benefits.',
+          'That sham surgery is now considered more effective than real surgery.',
+        ],
+        answer: 2,
+      },
+      {
+        question: 'What ethical issue is raised in the fourth paragraph?',
+        options: [
+          'Sham-surgery trials are illegal in most countries.',
+          'Patients are never informed that a trial is taking place.',
+          'Deception involved in sham surgery conflicts with informed consent norms.',
+          'Surgeons refuse to perform any trials involving sham procedures.',
+        ],
+        answer: 2,
+      },
+      {
+        question: 'What tension does the final paragraph describe?',
+        options: [
+          'Between patients and insurance companies over surgical costs.',
+          "Between the need for evidence and surgeons' attachment to established practice.",
+          'Between different hospitals over which procedures to adopt.',
+          'Between governments and pharmaceutical companies over trial funding.',
+        ],
+        answer: 1,
+      },
+      {
+        question: 'What is the overall purpose of this passage?',
+        options: [
+          'To argue that all surgery should be replaced with non-invasive treatment.',
+          'To explore a genuinely uncomfortable and unresolved area of medical research.',
+          'To prove that surgeons deliberately mislead their patients.',
+          'To recommend banning sham-surgery trials entirely.',
+        ],
+        answer: 1,
+      },
+    ],
+  },
 ];
 
 // ---------------- PARTE 6: Cross-text multiple matching ----------------
@@ -752,6 +1208,186 @@ export const crossText: CrossTextExercise[] = [
       { question: 'Which writer, unlike Writer A, argues for a general default position rather than individual case-by-case decisions?', answerLabel: 'B' },
       { question: 'Which writer emphasises that source communities are often not properly consulted about decisions affecting them?', answerLabel: 'C' },
       { question: 'Which writer focuses on the practical challenges involved even after a decision to return has been made?', answerLabel: 'D' },
+    ],
+  },
+  {
+    id: 'read-p6-08',
+    part: 6,
+    title: 'Impuestos sobre los alimentos ultraprocesados',
+    intro: 'Four writers discuss whether governments should introduce taxes on ultra-processed food.',
+    texts: [
+      {
+        label: 'A',
+        text: "The public health case for taxing ultra-processed food is, at this point, difficult to seriously dispute: the correlation between rising consumption of these products and rising rates of obesity and related chronic disease is about as well-established as public health evidence gets. Objections framed around personal freedom tend to ignore how aggressively these products are marketed and formulated specifically to override normal appetite regulation, which makes the usual free-choice argument considerably weaker than it first appears.",
+      },
+      {
+        label: 'B',
+        text: "My concern with such taxes has never really been about the underlying health evidence, which I don't dispute, but about how regressively they tend to land in practice. Ultra-processed food is often the cheapest, most accessible source of calories for lower-income households, and a blunt tax risks squeezing exactly the people least able to absorb the extra cost, without necessarily giving them any realistic, affordable alternative to switch to.",
+      },
+      {
+        label: 'C',
+        text: "Taxes framed simply around a product being 'ultra-processed' strike me as targeting the wrong variable entirely. The category is defined by degree of industrial processing rather than nutritional content specifically, which means it inevitably captures some genuinely healthy, fortified or preserved foods alongside the clearly harmful ones. A more precisely targeted tax, based on sugar, salt or saturated fat content directly, would achieve the intended health goal without these somewhat arbitrary side effects.",
+      },
+      {
+        label: 'D',
+        text: "Whatever the theoretical merits of any particular tax design, the practical evidence from countries that have already tried food taxation is decidedly mixed, with measurable effects on consumption typically far smaller than proponents initially predicted, and often concentrated among consumers who were already the most health-conscious to begin with. Before championing further taxation, it seems reasonable to ask why previous attempts have so rarely delivered the dramatic results their advocates confidently promised beforehand.",
+      },
+    ],
+    questions: [
+      { question: "Which writer, unlike Writer C, focuses on the economic impact on consumers rather than how the tax category is defined?", answerLabel: 'B' },
+      { question: 'Which writer questions whether taxation actually achieves its intended effect in practice?', answerLabel: 'D' },
+      { question: "Which writer argues that the \"ultra-processed\" category itself is not a precise enough basis for taxation?", answerLabel: 'C' },
+      { question: 'Which writer dismisses concerns about personal freedom as being based on a flawed premise?', answerLabel: 'A' },
+    ],
+  },
+  {
+    id: 'read-p6-09',
+    part: 6,
+    title: 'El valor de aprender un idioma sin viajar',
+    intro: "Four people share their views on whether it's worth learning a language through apps if you have no immediate plans to travel.",
+    texts: [
+      {
+        label: 'A',
+        text: "I've spent two years learning Portuguese on an app with absolutely no trip planned, and I'd do it again without hesitation. The cognitive benefits alone, better memory, improved multitasking, a measurable delay in age-related cognitive decline according to several studies, seem to me entirely worth the daily fifteen minutes, regardless of whether I ever set foot in Lisbon.",
+      },
+      {
+        label: 'B',
+        text: "Call me a pragmatist, but I struggle to justify the time investment without a concrete reason to actually use the language. My motivation collapsed within a few months precisely because I had no real context to practise in, no conversations to have, no signs to read, nothing beyond an app rewarding me with points for correctly translating sentences I'd likely never say out loud to another human being.",
+      },
+      {
+        label: 'C',
+        text: "What keeps me going, oddly enough, has very little to do with the language itself and everything to do with the culture attached to it: films, music, literature that I can now engage with slightly differently, even imperfectly, than through translation alone. Whether I ever travel anywhere feels almost beside the point when the daily practice already pays for itself in that sense.",
+      },
+      {
+        label: 'D',
+        text: "I think this debate somewhat misses how differently people actually learn languages. For some, an app without real-world practice is genuinely enough to maintain steady progress and lasting motivation; for others, myself included, the absence of real conversation makes the whole exercise feel abstract and ultimately unsustainable. Neither experience invalidates the other; they're just different learning profiles.",
+      },
+    ],
+    questions: [
+      { question: "Which person's motivation declined due to a lack of real-world context for practice?", answerLabel: 'B' },
+      { question: 'Which person values the cultural connection a language provides more than travel itself?', answerLabel: 'C' },
+      { question: 'Which person cites cognitive benefits as justification for learning regardless of travel plans?', answerLabel: 'A' },
+      { question: 'Which person argues that the debate overlooks differences in how individuals learn?', answerLabel: 'D' },
+    ],
+  },
+  {
+    id: 'read-p6-10',
+    part: 6,
+    title: 'La universidad gratuita',
+    intro: 'Four people give their opinions on whether university education should be free.',
+    texts: [
+      {
+        label: 'A',
+        text: "Free university education strikes me as one of the clearest, most cost-effective investments a country can make in its own future. Nations that have implemented it tend to see broader participation from lower-income students who would otherwise be deterred by debt, and the long-term economic returns, in tax revenue alone from a more highly qualified workforce, generally outweigh the upfront cost many times over.",
+      },
+      {
+        label: 'B',
+        text: "What free tuition conveniently ignores is that university is far from the only path towards a productive, skilled career, and heavily subsidising it risks further devaluing vocational and technical routes that plenty of young people would genuinely thrive on instead. If we're serious about funding education fairly, that funding needs to be spread far more evenly across different types of post-secondary training, not concentrated almost entirely on traditional degrees.",
+      },
+      {
+        label: 'C',
+        text: "I support the underlying goal but remain unconvinced that simply removing tuition fees, on its own, meaningfully addresses the deeper barriers keeping lower-income students out of higher education. Living costs, lost income during years of study, and inadequate academic preparation earlier in schooling often matter considerably more than tuition itself, and a policy focused narrowly on fees risks becoming a fairly expensive symbolic gesture rather than a genuinely effective one.",
+      },
+      {
+        label: 'D',
+        text: "The various countries already offering free tuition provide a genuinely useful natural experiment here, and the results are, frankly, more mixed than either side of this debate tends to acknowledge. Some have seen meaningful gains in access for disadvantaged students; others have mainly seen already-privileged students benefit from a subsidy they would happily have paid for themselves, with little real change in overall social mobility.",
+      },
+    ],
+    questions: [
+      { question: 'Which writer argues that removing tuition fees alone may not address the real barriers to access?', answerLabel: 'C' },
+      { question: 'Which writer raises concern that free tuition could undervalue alternative educational paths?', answerLabel: 'B' },
+      { question: 'Which writer presents evidence from other countries as genuinely inconclusive?', answerLabel: 'D' },
+      { question: 'Which writer argues that free tuition represents good long-term economic value for a country?', answerLabel: 'A' },
+    ],
+  },
+  {
+    id: 'read-p6-11',
+    part: 6,
+    title: '¿Deberían prohibirse los móviles en los colegios?',
+    intro: 'Four teachers share their views on banning smartphones in secondary schools.',
+    texts: [
+      {
+        label: 'A',
+        text: "Since our school introduced a full smartphone ban two years ago, the change in corridor and lunchtime atmosphere has been genuinely striking, students actually talking to each other rather than sitting silently scrolling side by side. Whatever the academic arguments either way, the social benefits alone have, in my experience, been more than enough to justify the policy.",
+      },
+      {
+        label: 'B',
+        text: "I supported the ban in principle but have watched it create a genuinely difficult enforcement burden that nobody fully anticipated beforehand: confiscating phones, storing them securely, managing furious parents who insist on being able to reach their children instantly throughout the school day. The policy's underlying goal is sound, but the practical cost of enforcing it consistently has been considerably higher than anyone predicted.",
+      },
+      {
+        label: 'C',
+        text: "What concerns me about blanket bans is how they remove a genuine opportunity to teach students healthy, sustainable relationships with technology they will use constantly for the rest of their lives regardless of what we do at school. A total ban simply postpones a skill students need to develop eventually, rather than helping them develop it while still under some degree of adult guidance and support.",
+      },
+      {
+        label: 'D',
+        text: "The research on this, contrary to what confident advocates on either side tend to suggest, remains considerably less conclusive than most public debate implies. Some studies show modest academic improvements following bans; others show no measurable effect whatsoever once other variables are properly controlled for. I'd be cautious about any school implementing a strict policy based primarily on the assumption that the evidence clearly and decisively supports one side.",
+      },
+    ],
+    questions: [
+      { question: 'Which teacher argues that banning phones avoids an opportunity to teach healthy technology habits?', answerLabel: 'C' },
+      { question: 'Which teacher highlights unexpected practical difficulties in enforcing the ban?', answerLabel: 'B' },
+      { question: 'Which teacher questions how conclusive the research on phone bans actually is?', answerLabel: 'D' },
+      { question: 'Which teacher focuses on the positive social change observed since the ban began?', answerLabel: 'A' },
+    ],
+  },
+  {
+    id: 'read-p6-12',
+    part: 6,
+    title: '¿Renovar o mudarse?',
+    intro: 'Four homeowners share their experience of deciding whether to renovate their current home or move house instead.',
+    texts: [
+      {
+        label: 'A',
+        text: "After extensively costing both options, renovating turned out to be considerably more expensive than we initially assumed, largely due to unexpected structural issues our contractor uncovered once walls were opened up. In retrospect, given what we ultimately spent, buying a larger house outright would probably have made more financial sense, though we didn't have that clarity at the time we made the decision.",
+      },
+      {
+        label: 'B',
+        text: "Moving simply wasn't a realistic option for us, given how attached our children are to their current school and neighbourhood friendships, so renovating always felt like the only real choice regardless of cost comparisons. Having now lived with the finished result for a year, I can say it was absolutely worth the disruption and expense, even if a rational spreadsheet comparison might have suggested otherwise.",
+      },
+      {
+        label: 'C',
+        text: "We chose to move rather than renovate mainly because we'd heard so many horror stories about renovation timelines stretching on indefinitely, and living through months of dust, noise and contractors traipsing through our home held very little appeal. Moving had its own considerable stresses, admittedly, but at least they were front-loaded and finite rather than dragging on unpredictably for months on end.",
+      },
+      {
+        label: 'D',
+        text: "What surprised me most was how emotionally difficult I found the decision, entirely separate from the financial or practical considerations everyone warns you about beforehand. Our current home holds fifteen years of memories that a spreadsheet simply cannot capture or properly weigh, and that emotional calculation, in the end, mattered considerably more to our final decision than either of us had expected going in.",
+      },
+    ],
+    questions: [
+      { question: 'Which homeowner says the renovation ended up costing more than expected?', answerLabel: 'A' },
+      { question: "Which homeowner chose to stay largely because of their children's attachment to the local area?", answerLabel: 'B' },
+      { question: 'Which homeowner was mainly put off renovating by the prospect of an unpredictable timeline?', answerLabel: 'C' },
+      { question: 'Which homeowner found the emotional side of the decision more significant than expected?', answerLabel: 'D' },
+    ],
+  },
+  {
+    id: 'read-p6-13',
+    part: 6,
+    title: '¿Debería regularse la IA generativa?',
+    intro: 'Four people give their views on whether generative artificial intelligence should be more strictly regulated.',
+    texts: [
+      {
+        label: 'A',
+        text: "Waiting for comprehensive international regulation before addressing generative AI's most pressing risks strikes me as dangerously naive, given how slowly international agreements typically move and how quickly this particular technology continues to develop. Individual countries, and even individual companies, need to act now on the risks we can already clearly identify, rather than waiting for a level of global consensus that may simply never arrive in time to matter.",
+      },
+      {
+        label: 'B',
+        text: "Heavy-handed regulation introduced too early risks entrenching whichever companies are currently best resourced to navigate complex compliance requirements, effectively locking out smaller competitors and academic researchers who lack comparable legal and technical resources. I worry considerably more about regulation accidentally cementing today's dominant players' position than about the specific risks regulation is ostensibly designed to address.",
+      },
+      {
+        label: 'C',
+        text: "The debate as currently framed treats regulation as a single, unified question, when in reality wildly different technologies, applications and risk profiles are all being grouped together under one increasingly unhelpful umbrella term. Sensible regulation almost certainly needs to look completely different for, say, medical diagnostic tools than for creative writing assistants, rather than applying identical, one-size-fits-all rules across such fundamentally different use cases.",
+      },
+      {
+        label: 'D',
+        text: "My worry isn't regulation itself but the sheer pace of change regulators are being asked to keep up with using processes that were never designed to move quickly. By the time any given rule is finally drafted, debated and formally passed, the specific technology it was originally designed to address has often already evolved into something meaningfully different, leaving well-intentioned regulation perpetually chasing a target that keeps moving faster than the rules ever can.",
+      },
+    ],
+    questions: [
+      { question: 'Which person argues that regulation risks unfairly benefiting already-dominant companies?', answerLabel: 'B' },
+      { question: 'Which person argues that different AI applications need fundamentally different regulatory approaches?', answerLabel: 'C' },
+      { question: 'Which person expresses concern that regulatory processes cannot keep pace with technological change?', answerLabel: 'D' },
+      { question: 'Which person argues against waiting for international consensus before taking regulatory action?', answerLabel: 'A' },
     ],
   },
 ];
@@ -1099,6 +1735,300 @@ Few inventions, in fact, can claim to have reached something so close to a stabl
     ],
     answers: ['D', 'B', 'E', 'A', 'C', 'F'],
   },
+  {
+    id: 'read-p7-08',
+    part: 7,
+    title: 'The strange persistence of the fax machine',
+    textWithGaps: `In an age when nearly every conceivable form of communication has migrated online, one distinctly analogue holdout continues to defy predictions of its imminent extinction: the humble fax machine. Long dismissed by casual observers as a curious relic destined for the same fate as the pager, it remains, remarkably, an active and even indispensable part of daily operations in several industries. {{0}}
+
+Healthcare offers perhaps the clearest example of this stubborn persistence. {{1}}
+
+Legal considerations reinforce the pattern in ways that have little to do with nostalgia or institutional inertia. {{2}}
+
+Security, somewhat counterintuitively, also plays a role in the fax machine's survival. {{3}}
+
+None of this is to suggest the technology is thriving in any conventional sense. {{4}}
+
+What does seem clear is that predictions of the fax machine's death have proven, at minimum, considerably premature. {{5}}
+
+Whether this reflects genuine technological merit or simply the sheer difficulty of dislodging entrenched institutional habits once they have taken root remains, perhaps fittingly, a matter for another decade's worth of unresolved debate.`,
+    paragraphs: [
+      {
+        label: 'A',
+        text: 'In several countries, faxed signatures and documents still carry a clearer, more established legal standing in court than various forms of digital signature, whose legal status can vary considerably between jurisdictions and remains, in some contexts, genuinely contested.',
+      },
+      {
+        label: 'B',
+        text: "A fax transmission, unlike an email, travels over a dedicated telephone line rather than the internet, making it, at least in theory, harder to intercept remotely, a property some security-conscious institutions still consider genuinely valuable.",
+      },
+      {
+        label: 'C',
+        text: "Global sales of fax machines and related consumables have fallen sharply and continued declining for decades, and the demographic still actively relying on the technology skews heavily towards older institutions with entrenched procedures rather than newer organisations building systems from scratch.",
+      },
+      {
+        label: 'D',
+        text: "Hospitals and clinics in many countries still rely on fax machines to transmit sensitive patient records between institutions, partly because ageing IT infrastructure has never been fully replaced, and partly because fax transmissions are considered, rightly or wrongly, more straightforwardly compliant with strict medical privacy regulations than many newer digital alternatives.",
+      },
+      {
+        label: 'E',
+        text: "Rather, it seems to occupy a durable niche of its own: not a dominant technology by any measure, but one embedded deeply enough into certain regulatory and institutional habits that fully replacing it may take considerably longer than most people would instinctively assume.",
+      },
+      {
+        label: 'F',
+        text: "Attempts to formally phase out fax-based systems in several of these sectors have repeatedly stalled, often due to the sheer administrative cost of retraining staff and re-certifying entire compliance processes built, in some cases, over decades.",
+      },
+      {
+        label: 'G',
+        text: "This resilience is not merely a matter of older employees clinging stubbornly to outdated habits, however tempting that particular explanation might be for younger colleagues baffled by the technology's continued relevance.",
+      },
+    ],
+    answers: ['G', 'D', 'A', 'B', 'C', 'E'],
+  },
+  {
+    id: 'read-p7-09',
+    part: 7,
+    title: 'Why some scientific discoveries are made independently by multiple people at once',
+    textWithGaps: `The history of science contains a curious, recurring pattern that tends to surprise people encountering it for the first time: major discoveries are disproportionately often made by two or more researchers working entirely independently, at roughly the same moment, with no knowledge of each other's work. Calculus, the theory of evolution by natural selection, and the telephone all have at least two credible independent claimants to their discovery. {{0}}
+
+For a long time, the standard explanation leaned heavily on coincidence, treating each case as a remarkable but essentially unconnected fluke of timing. {{1}}
+
+A more systematic explanation gained ground once historians began cataloguing just how common this pattern actually was across scientific history. {{2}}
+
+Under this view, a discovery becomes possible, in a meaningful sense, only once the necessary preceding groundwork, in instruments, theory and accumulated data, has been laid by the wider scientific community. {{3}}
+
+This does not mean individual genius or insight plays no meaningful role in these stories. {{4}}
+
+The pattern also carries a humbling implication for how science communicates its own history, which tends strongly to favour clean, single-hero narratives over the messier, more collaborative reality. {{5}}
+
+Recognising the pattern, then, is not merely a historical curiosity; it reshapes how credit, priority disputes and scientific reputation itself ought reasonably to be understood.`,
+    paragraphs: [
+      {
+        label: 'A',
+        text: "Attributing a discovery to a single brilliant individual, however satisfying a story it makes, often obscures just how many other researchers were working productively along strikingly similar lines at the very same time.",
+      },
+      {
+        label: 'B',
+        text: "Sociologist Robert Merton, examining hundreds of documented cases throughout the nineteenth and twentieth centuries, argued that such multiple discoveries were in fact the historical norm rather than the exception, with sole, unrepeated discovery being the genuinely unusual case requiring separate explanation.",
+      },
+      {
+        label: 'C',
+        text: "Once several researchers possess broadly comparable tools, access to broadly similar prior findings, and are responding to broadly similar practical or scientific pressures, arriving independently at a similar conclusion becomes, on this account, considerably less surprising than it might first appear.",
+      },
+      {
+        label: 'D',
+        text: "Whoever happens to publish first, or whose version of events later becomes embedded in textbooks, often depends as much on factors like institutional prestige, language of publication or plain luck as on any meaningful difference in the underlying originality of the work itself.",
+      },
+      {
+        label: 'E',
+        text: "The individual researcher's particular combination of skill, timing and sheer determination to pursue a difficult problem still matters enormously in determining exactly who reaches a workable answer first, and how elegantly they manage to do so.",
+      },
+      {
+        label: 'F',
+        text: "Alexander Graham Bell famously filed his telephone patent mere hours before a rival inventor filed a strikingly similar claim, a coincidence still debated by historians more than a century later.",
+      },
+      {
+        label: 'G',
+        text: "This near-simultaneity, on closer inspection, turns out to be far too common across the history of science to be dismissed as mere coincidence in any individual case.",
+      },
+    ],
+    answers: ['G', 'F', 'B', 'C', 'E', 'A'],
+  },
+  {
+    id: 'read-p7-10',
+    part: 7,
+    title: "The hidden infrastructure behind 'the cloud'",
+    textWithGaps: `The word cloud, as applied to modern computing, conjures a deliberately weightless, almost immaterial image: data floating somewhere abstract and intangible, accessible instantly from anywhere with an internet connection. The physical reality behind the metaphor is considerably more concrete, and in several respects considerably more surprising, than the term's breezy vagueness tends to suggest. {{0}}
+
+These facilities, known within the industry as data centres, are anything but weightless. {{1}}
+
+Water, perhaps counterintuitively for an industry built around digital information, turns out to be one of the cloud's most significant hidden resource demands. {{2}}
+
+Geography plays a far larger role in where this infrastructure gets built than most users ever consider. {{3}}
+
+The environmental footprint of all this infrastructure has become an increasingly prominent point of scrutiny in recent years. {{4}}
+
+Major technology companies have responded with a range of commitments, from renewable energy procurement to more radical experiments, including data centres deliberately submerged in seawater to take advantage of natural cooling. {{5}}
+
+Whatever the eventual solutions turn out to be, the underlying lesson seems clear enough: there is nothing weightless, in any literal sense, about a technology whose entire public image was built around the suggestion that there might be.`,
+    paragraphs: [
+      {
+        label: 'A',
+        text: "Cooling these vast concentrations of processing equipment consumes enormous quantities of water in many facilities, drawn from local supplies that, in several documented cases, has brought data centres into direct, sometimes contentious, competition with nearby communities and agricultural users.",
+      },
+      {
+        label: 'B',
+        text: "Cool climates, abundant renewable energy and reliable political stability have all emerged as significant factors, drawing a disproportionate share of major new facilities toward specific regions, including, somewhat surprisingly to most outsiders, parts of Scandinavia and Iceland.",
+      },
+      {
+        label: 'C',
+        text: "Whether such measures will meaningfully offset the industry's rapidly growing energy demands, driven considerably further in recent years by the computational appetite of artificial intelligence systems, remains a genuinely open question among energy researchers.",
+      },
+      {
+        label: 'D',
+        text: "Behind every uploaded photo, streamed film or synced document sits a sprawling network of physical facilities, buildings crammed with thousands of humming servers, backup generators and elaborate cooling systems, spread strategically across the globe.",
+      },
+      {
+        label: 'E',
+        text: "Estimates of the technology sector's overall electricity consumption vary considerably depending on methodology, but virtually all serious analyses agree the figure has been rising steadily and shows no clear sign of levelling off any time soon.",
+      },
+      {
+        label: 'F',
+        text: 'A single large facility can occupy the physical footprint of several football pitches and draw as much continuous electricity as a small city, a scale that surprises most people encountering the figures for the first time.',
+      },
+      {
+        label: 'G',
+        text: "Some companies have begun publishing detailed sustainability reports specifically to address mounting criticism, though independent verification of the figures involved remains, in many cases, considerably harder for outside observers to achieve than the reports themselves might suggest.",
+      },
+    ],
+    answers: ['D', 'F', 'A', 'B', 'E', 'C'],
+  },
+  {
+    id: 'read-p7-11',
+    part: 7,
+    title: "The hidden cost of 'free' returns in online shopping",
+    textWithGaps: `Free returns have become such a standard expectation among online shoppers that retailers offering anything less are often perceived as taking a genuine commercial risk, whatever their actual costs of providing the service might be. What shoppers rarely see, however, is quite how expensive this apparently generous policy actually is to operate behind the scenes. {{0}}
+
+Processing a single returned item, it turns out, involves considerably more than simply restocking it on a shelf. {{1}}
+
+Clothing retailers face a particularly acute version of this problem, thanks to a practice increasingly known within the industry as bracketing. {{2}}
+
+The environmental cost of all this reverse logistics has, until recently, attracted considerably less attention than its financial equivalent. {{3}}
+
+Some retailers have begun experimenting with quiet policy adjustments in response, though rarely in ways that draw explicit customer attention. {{4}}
+
+Whether shoppers themselves would tolerate a more transparent accounting of these costs, one that made the true price of convenient, frictionless returns more visible at the point of purchase, remains an open and largely untested question. {{5}}
+
+For now, the industry appears to have settled on a familiar compromise: absorbing the considerable expense quietly, adjusting prices modestly across the board to cover it, rather than risking the customer backlash that any more transparent alternative would likely provoke.`,
+    paragraphs: [
+      {
+        label: 'A',
+        text: "A meaningful proportion of returned items, particularly in categories like clothing or electronics, cannot simply be restocked at full price and are instead sold at steep discount through secondary channels, or in a significant number of documented cases, discarded entirely rather than processed for resale.",
+      },
+      {
+        label: 'B',
+        text: "Shoppers routinely order multiple sizes or colours of the same item with the explicit intention of returning whatever doesn't fit or suit them, a strategy that keeps individual customers satisfied while dramatically inflating the overall volume, and cost, of returns retailers must process.",
+      },
+      {
+        label: 'C',
+        text: "Each returned package typically requires manual inspection, cleaning or repackaging, and a decision about whether the item can be resold as new, sold at a discount, donated, or simply discarded, a labour-intensive process that scales poorly as return volumes climb.",
+      },
+      {
+        label: 'D',
+        text: "Some analysts estimate that returned goods destined for landfill now represent a meaningfully significant contributor to overall retail-sector waste, a figure that has begun attracting scrutiny from environmental campaigners previously more focused on manufacturing and packaging alone.",
+      },
+      {
+        label: 'E',
+        text: "Several retailers have quietly introduced modest return shipping fees for lower-value items specifically, while carefully preserving genuinely free returns for higher-value purchases where customer goodwill matters considerably more to overall profitability.",
+      },
+      {
+        label: 'F',
+        text: "Early experiments suggesting shoppers respond reasonably well to clear information about environmental impact specifically, if not necessarily to cost information framed in purely financial terms, offer at least a tentative signal for how this tension might eventually be resolved.",
+      },
+      {
+        label: 'G',
+        text: "Industry estimates suggest the true cost of processing an average return can, once labour, shipping and lost resale value are properly accounted for, approach or even exceed the original profit margin on the item itself.",
+      },
+    ],
+    answers: ['G', 'C', 'B', 'D', 'E', 'F'],
+  },
+  {
+    id: 'read-p7-12',
+    part: 7,
+    title: 'How lighthouses became automated, and what was lost',
+    textWithGaps: `For centuries, lighthouses depended entirely on resident keepers, individuals who lived in often remote, isolated postings for months or years at a stretch, tending the light through storms, fog and the numbing monotony of routine maintenance that made up the overwhelming majority of the job. Automation, when it finally arrived in the latter half of the twentieth century, transformed this ancient profession almost out of existence within a single generation. {{0}}
+
+The technical case for automation was, admittedly, difficult to seriously dispute. {{1}}
+
+What automation could not fully replace, however, was the keeper's less obvious secondary role as an early-warning system for problems automated sensors were never quite designed to catch. {{2}}
+
+Maritime historians have documented numerous cases in which an alert keeper's judgement, rather than any mechanical failure narrowly avoided, prevented shipwrecks that automated systems alone might well have missed entirely. {{3}}
+
+The human cost of automation, meanwhile, fell disproportionately on small, isolated coastal communities that had, in many cases, grown up around a lighthouse's presence over generations. {{4}}
+
+Today, a small number of countries maintain a handful of staffed lighthouses largely for ceremonial, educational or tourism purposes rather than genuine operational necessity. {{5}}
+
+What automation gained in reliability and cost savings, in other words, it arguably lost in a particular, irreplaceable form of human vigilance, one increasingly difficult to fully appreciate now that so few people remain who ever actually relied on it.`,
+    paragraphs: [
+      {
+        label: 'A',
+        text: "Automated systems, reliant on programmed responses to known failure modes, proved consistently excellent at maintaining a steady light and flagging routine mechanical faults, but considerably less adept at recognising genuinely novel or unanticipated situations requiring immediate human judgement.",
+      },
+      {
+        label: 'B',
+        text: "A keeper's departure often meant the eventual closure of the small school, shop or postal service that had depended on that family's presence, quietly reshaping the economic and social fabric of communities never directly consulted about the change.",
+      },
+      {
+        label: 'C',
+        text: "Electronic sensors, solar power and remote monitoring systems could maintain a light's function far more reliably and considerably more cheaply than any human keeper, requiring only occasional maintenance visits rather than permanent, round-the-clock staffing.",
+      },
+      {
+        label: 'D',
+        text: "These sites now function more as living museums than working navigational infrastructure, preserving something of the profession's atmosphere and history for visitors even as its genuine operational necessity has entirely disappeared.",
+      },
+      {
+        label: 'E',
+        text: "One frequently cited case involved a keeper noticing subtle, unusual changes in wave patterns during an approaching storm, prompting an emergency warning that automated equipment, monitoring only the light itself, would have had no mechanism to detect or communicate at all.",
+      },
+      {
+        label: 'F',
+        text: "Within roughly two decades, the vast majority of staffed lighthouses across most developed countries had been converted to fully automated operation, ending a profession that had existed in something close to its original form for well over a century.",
+      },
+      {
+        label: 'G',
+        text: "Keepers themselves often described a complex, ambivalent relationship with the isolation the job demanded, one that could shift between deeply valued solitude and genuinely crushing loneliness depending on circumstances entirely outside their control.",
+      },
+    ],
+    answers: ['F', 'C', 'A', 'E', 'B', 'D'],
+  },
+  {
+    id: 'read-p7-13',
+    part: 7,
+    title: 'The strange durability of the QWERTY keyboard layout',
+    textWithGaps: `Anyone learning to type today inherits a keyboard layout designed, more than a century ago, around the mechanical limitations of typewriters that have not existed in ordinary use for decades. The QWERTY arrangement, named for the sequence of letters along its top row, has proven remarkably resistant to replacement despite widespread agreement among researchers that more efficient alternatives exist. {{0}}
+
+The layout's original purpose, contrary to popular belief, was not primarily to slow typists down, a persistent myth repeated in countless articles on the subject. {{1}}
+
+Alternative layouts designed explicitly around efficiency, most famously the Dvorak Simplified Keyboard patented in the 1930s, have consistently demonstrated modest measurable advantages in typing speed and reduced finger movement under controlled testing conditions. {{2}}
+
+What has prevented these alternatives from displacing QWERTY has comparatively little to do with their actual technical merits. {{3}}
+
+Every additional year QWERTY remains dominant only reinforces this dynamic further, since each new generation of typists represents another cohort trained on, and therefore invested in, the existing standard rather than any genuine alternative. {{4}}
+
+Economists studying this pattern have used the QWERTY keyboard as a textbook example of what they term path dependency, situations where an early, not necessarily optimal choice becomes effectively locked in through the accumulated weight of subsequent adoption. {{5}}
+
+Whether a genuinely superior standard could ever displace an established but merely adequate one, once enough people, institutions and manufactured products depend on the existing arrangement, remains a question with implications reaching well beyond keyboard design alone.`,
+    paragraphs: [
+      {
+        label: 'A',
+        text: "Rather, it was designed largely to reduce the mechanical jamming of early typewriters' metal type bars, by separating commonly paired letters that, positioned too closely together, would otherwise frequently collide and jam mid-strike.",
+      },
+      {
+        label: 'B',
+        text: "The gains, while real and consistently replicated across multiple independent studies, have generally proven too modest to justify the substantial cost, in time and mental effort, of retraining an entire population already fluent in a different, thoroughly familiar layout.",
+      },
+      {
+        label: 'C',
+        text: "It has instead almost everything to do with the accumulated weight of existing infrastructure: installed software, manufactured hardware, established touch-typing curricula, and millions of people whose fingers have already internalised one particular arrangement through years of repeated practice.",
+      },
+      {
+        label: 'D',
+        text: "Other well-documented examples of the same underlying phenomenon include certain video recording formats and computer operating systems, cases in which an early technical standard prevailed not necessarily through inherent technical superiority but through the sheer momentum of early, widespread adoption.",
+      },
+      {
+        label: 'E',
+        text: "This particular myth likely persists because it offers such a satisfyingly counterintuitive explanation, one considerably more memorable and retellable than the comparatively mundane mechanical reality actually involved.",
+      },
+      {
+        label: 'F',
+        text: "Some technology companies have experimented with offering alternative keyboard layouts as an optional software setting, though uptake among ordinary users has remained, by nearly every available measure, negligibly small.",
+      },
+      {
+        label: 'G',
+        text: "The switching costs involved compound further still once workplace training programmes, standardised keyboards and decades of institutional muscle memory are all properly factored into any realistic, full accounting of the change.",
+      },
+    ],
+    answers: ['F', 'A', 'B', 'C', 'G', 'D'],
+  },
 ];
 
 // ---------------- PARTE 8: Multiple matching ----------------
@@ -1340,6 +2270,210 @@ export const multipleMatching: MultipleMatchingExercise[] = [
       { question: 'Which person describes an uneven mix of remembered and forgotten skills?', answerLabel: 'B' },
       { question: "Which person's teacher has adjusted their expectations to be more realistic?", answerLabel: 'C' },
       { question: 'Which person found the physical side of learning harder than expected but ultimately worth it?', answerLabel: 'D' },
+    ],
+  },
+  {
+    id: 'read-p8-08',
+    part: 8,
+    title: 'Cuatro opiniones sobre publicar en revistas de acceso abierto',
+    intro: 'Four academics share their views on publishing research in open-access journals.',
+    texts: [
+      {
+        label: 'A',
+        text: "Having published in both traditional subscription journals and open-access outlets throughout my career, I can say the shift toward open access has genuinely transformed who actually reads my work. Colleagues in lower-income countries, journalists, even interested members of the public who would never have paid a subscription fee now regularly cite or reference papers I published openly, in a way that simply didn't happen with my earlier, paywalled research.",
+      },
+      {
+        label: 'B',
+        text: "My frustration with open access isn't philosophical, I fully support the underlying principle, but practical: the publication fees many reputable open-access journals charge are substantial, and my department's research budget simply doesn't stretch to cover them for every paper we produce. In practice, this pushes early-career researchers like myself back toward traditional journals regardless of our actual preferences, purely for financial reasons.",
+      },
+      {
+        label: 'C',
+        text: "What concerns me most is the proliferation of low-quality open-access journals that will publish almost anything provided the fee is paid, undermining trust in the open-access model more broadly among senior colleagues who remain sceptical. Distinguishing legitimate open-access publishing from these predatory operations has become a genuine skill young researchers now need to develop, one that didn't really exist as a concern a couple of decades ago.",
+      },
+      {
+        label: 'D',
+        text: "I switched entirely to open-access publishing five years ago, partly on principle, but also because I noticed a measurable increase in citations for papers published this way compared with my earlier paywalled work, likely simply because more people can actually access and build on the research. My only real regret is not making the switch considerably earlier in my career.",
+      },
+    ],
+    questions: [
+      { question: 'Which academic mentions being unable to afford open-access publication fees?', answerLabel: 'B' },
+      { question: 'Which academic says open-access publishing has broadened who reads their research?', answerLabel: 'A' },
+      { question: 'Which academic raises concerns about low-quality journals exploiting the open-access model?', answerLabel: 'C' },
+      { question: 'Which academic reports a measurable increase in citations after switching to open access?', answerLabel: 'D' },
+      { question: 'Which academic wishes they had made the switch to open access sooner?', answerLabel: 'D' },
+      { question: 'Which academic says financial pressures, not personal preference, determine where they publish?', answerLabel: 'B' },
+      { question: 'Which academic mentions readers who would not have accessed their earlier paywalled work?', answerLabel: 'A' },
+      { question: 'Which academic says distinguishing legitimate journals from questionable ones has become a necessary skill?', answerLabel: 'C' },
+    ],
+  },
+  {
+    id: 'read-p8-09',
+    part: 8,
+    title: 'Cuatro relatos sobre dejar una carrera estable para emprender',
+    intro: 'Four people describe leaving a stable career to start their own business.',
+    texts: [
+      {
+        label: 'A',
+        text: "I left a well-paid, secure position in finance eighteen months ago, and while the business is doing reasonably well now, I deeply underestimated how much I'd miss the psychological safety net of a predictable monthly salary. Even modest financial decisions, ones I wouldn't have thought twice about before, now involve a level of anxious calculation that genuinely surprised me.",
+      },
+      {
+        label: 'B',
+        text: "What nobody adequately warned me about was the sheer loneliness of it, not socially, I still see friends plenty, but professionally: no colleagues to bounce ideas off casually, no manager to validate a difficult decision, just me and an ever-growing list of choices I alone am responsible for getting right or wrong.",
+      },
+      {
+        label: 'C',
+        text: "Two years in, my only genuine regret is not doing it sooner. I spent nearly a decade telling myself I needed more savings, more experience, more certainty before taking the leap, when in reality I was mostly just afraid, and the business has actually grown faster than the cautious five-year plan I once thought I needed before starting at all.",
+      },
+      {
+        label: 'D',
+        text: "The hardest adjustment for me has been giving myself permission to switch off. In my old job, leaving the office genuinely meant leaving work behind; running my own business, the two have become so thoroughly blurred that I've had to set deliberate, sometimes artificial boundaries just to protect anything resembling personal time.",
+      },
+    ],
+    questions: [
+      { question: "Which person says they underestimated how much they'd miss financial security?", answerLabel: 'A' },
+      { question: 'Which person mentions the professional isolation of running a business alone?', answerLabel: 'B' },
+      { question: 'Which person regrets waiting so long to start their business?', answerLabel: 'C' },
+      { question: 'Which person has had to set artificial boundaries to protect personal time?', answerLabel: 'D' },
+      { question: 'Which person says small financial decisions now require more careful thought than before?', answerLabel: 'A' },
+      { question: 'Which person says fear, rather than practical necessity, was the real reason for delaying?', answerLabel: 'C' },
+      { question: 'Which person misses having colleagues to discuss decisions with?', answerLabel: 'B' },
+      { question: 'Which person struggles with the blurred line between work and personal life?', answerLabel: 'D' },
+    ],
+  },
+  {
+    id: 'read-p8-10',
+    part: 8,
+    title: 'Cuatro reseñas de retiros de meditación silenciosa',
+    intro: 'Four people share their experience of attending a ten-day silent meditation retreat.',
+    texts: [
+      {
+        label: 'A',
+        text: "The first three days were, without exaggeration, some of the most mentally uncomfortable of my life, my mind seemed to generate an endless, relentless stream of trivial thoughts the moment external distractions were removed. Somewhere around day five, something shifted, and a genuine, unfamiliar stillness settled in that I'm still, months later, trying to properly understand or put into words.",
+      },
+      {
+        label: 'B',
+        text: "I'll be honest: I never really got past the physical discomfort of the extended sitting sessions, and by day seven I was mostly counting down the hours until it ended rather than experiencing whatever transformation other participants described afterwards. I don't regret attending, but I'd be lying if I called it the profound experience I'd been led to expect beforehand.",
+      },
+      {
+        label: 'C',
+        text: "What surprised me most wasn't the meditation itself but the specific texture of the silence between participants, no small talk, no reassuring eye contact, no casual social cues to lean on whatsoever. It forced a kind of self-reliance I hadn't anticipated needing, and that unexpected challenge turned out to be far more valuable, in retrospect, than the meditation technique we were actually there to learn.",
+      },
+      {
+        label: 'D',
+        text: "Having attended two previous retreats before this one, I noticed my experience this time was calmer and considerably less dramatic than either of my first two attempts, which I now suspect says more about cumulative practice over several years than about this particular retreat's structure or teaching. Newcomers expecting an immediate, singular breakthrough might benefit from tempering their expectations somewhat beforehand.",
+      },
+    ],
+    questions: [
+      { question: 'Which person says they did not experience the transformation others described?', answerLabel: 'B' },
+      { question: 'Which person found the social silence more significant than the meditation technique itself?', answerLabel: 'C' },
+      { question: 'Which person describes a noticeable shift partway through the retreat?', answerLabel: 'A' },
+      { question: 'Which person suggests newcomers should moderate their expectations?', answerLabel: 'D' },
+      { question: 'Which person struggled mainly with physical discomfort rather than mental distraction?', answerLabel: 'B' },
+      { question: "Which person compares this retreat to previous similar experiences they've had?", answerLabel: 'D' },
+      { question: 'Which person found the initial days mentally overwhelming?', answerLabel: 'A' },
+      { question: 'Which person developed unexpected self-reliance due to the lack of social interaction?', answerLabel: 'C' },
+    ],
+  },
+  {
+    id: 'read-p8-11',
+    part: 8,
+    title: 'Cuatro médicos opinan sobre las consultas por videollamada',
+    intro: 'Four doctors share their views on video consultations as part of routine healthcare.',
+    texts: [
+      {
+        label: 'A',
+        text: "Having conducted hundreds of video consultations over the past few years, I've found them genuinely excellent for straightforward follow-ups, medication reviews, and cases where I already have a solid understanding of the patient's history. What concerns me is when video becomes the default even for new patients presenting with vague or unusual symptoms, situations where a hands-on physical examination often reveals things a screen simply cannot.",
+      },
+      {
+        label: 'B',
+        text: "My older patients, in particular, have struggled considerably more with the technology itself than with the actual medical content of these consultations, spending precious appointment minutes troubleshooting connection issues or camera angles rather than discussing their actual health concerns. I've had to build in extra buffer time specifically to accommodate this, time that inevitably comes out of my capacity to see other patients that day.",
+      },
+      {
+        label: 'C',
+        text: "What surprised me most was how much more comfortable some patients seem discussing sensitive topics, mental health concerns particularly, over video rather than in person, something I genuinely didn't anticipate before we started offering this option routinely. The reduced physical presence appears to lower a barrier for certain difficult conversations in ways I'm still trying to fully understand myself.",
+      },
+      {
+        label: 'D',
+        text: "I remain fundamentally sceptical that video consultations save the healthcare system real money once you properly account for the technology infrastructure, ongoing staff training, and ordinary technical support required to run them reliably at scale. The upfront savings on physical space and reduced patient travel time are real, certainly, but they're routinely overstated relative to the genuine costs involved in making the system function properly.",
+      },
+    ],
+    questions: [
+      { question: 'Which doctor mentions that older patients struggle more with the technology than the medical content?', answerLabel: 'B' },
+      { question: 'Which doctor questions whether video consultations genuinely save money once all costs are considered?', answerLabel: 'D' },
+      { question: 'Which doctor found that some patients are more comfortable discussing sensitive topics over video?', answerLabel: 'C' },
+      { question: 'Which doctor expresses concern about using video for new patients with unclear symptoms?', answerLabel: 'A' },
+      { question: 'Which doctor has had to allocate extra time to help patients with technical issues?', answerLabel: 'B' },
+      { question: 'Which doctor values video consultations most for routine follow-up appointments?', answerLabel: 'A' },
+      { question: 'Which doctor is still trying to understand why video lowers barriers to certain conversations?', answerLabel: 'C' },
+      { question: 'Which doctor argues that upfront savings from video consultations are often exaggerated?', answerLabel: 'D' },
+    ],
+  },
+  {
+    id: 'read-p8-12',
+    part: 8,
+    title: 'Cuatro padres hablan de criar hijos bilingües',
+    intro: 'Four parents describe their experience of raising bilingual children.',
+    texts: [
+      {
+        label: 'A',
+        text: "We committed early on to speaking only our native language at home, with English reserved entirely for school and the wider community, and while our children's English vocabulary lagged noticeably behind monolingual classmates in the first couple of years of school, that gap closed completely by around age eight, with no lasting disadvantage that we've been able to identify since.",
+      },
+      {
+        label: 'B',
+        text: "What nobody adequately warned us about was how much deliberate, ongoing effort bilingualism actually requires from parents, particularly once children start school and the majority-language environment begins exerting constant, powerful pressure that inevitably works against the minority language at home. Maintaining it has genuinely felt, at various points, like swimming steadily against a strong and unrelenting current.",
+      },
+      {
+        label: 'C',
+        text: "Our situation differs somewhat from many bilingual families since both parents speak the same two languages fluently, allowing us to mix them fairly freely at home rather than assigning one language strictly to each parent, as many bilingual parenting guides specifically recommend. It's worked well for us regardless, suggesting the commonly prescribed strict-separation approach may matter rather less than parenting books often insist it does.",
+      },
+      {
+        label: 'D',
+        text: "The most rewarding unexpected outcome, for us, has had remarkably little to do with practical language skills themselves and everything to do with our children's relationship with their grandparents, who speak limited English. Watching them communicate easily and warmly with family members they would otherwise barely have been able to talk to at all has been worth every single bit of the effort bilingualism has genuinely required from all of us.",
+      },
+    ],
+    questions: [
+      { question: "Which parent says their children's initial vocabulary gap eventually closed completely?", answerLabel: 'A' },
+      { question: 'Which parent found that maintaining bilingualism required constant, ongoing effort?', answerLabel: 'B' },
+      { question: 'Which parent deviated from commonly recommended strict language-separation advice?', answerLabel: 'C' },
+      { question: 'Which parent highlights improved family relationships as an unexpected benefit?', answerLabel: 'D' },
+      { question: 'Which parent describes majority-language pressure as something to actively push against?', answerLabel: 'B' },
+      { question: 'Which parent found their approach worked despite not following typical guidance?', answerLabel: 'C' },
+      { question: 'Which parent noticed a temporary vocabulary delay compared to monolingual peers?', answerLabel: 'A' },
+      { question: 'Which parent values a benefit unrelated to language ability itself the most?', answerLabel: 'D' },
+    ],
+  },
+  {
+    id: 'read-p8-13',
+    part: 8,
+    title: 'Cuatro reseñas de cursos de improvisación teatral',
+    intro: 'Four adults review improvisational theatre courses they took.',
+    texts: [
+      {
+        label: 'A',
+        text: "Having spent my entire career in a fairly rigid corporate environment, this course was genuinely uncomfortable at first in ways I hadn't anticipated, being asked to simply react spontaneously without a script or a clear right answer felt deeply unnatural initially. By the final session, though, that same discomfort had become something closer to exhilaration, and I've noticed the shift carrying over surprisingly well into how I handle unexpected situations at work now too.",
+      },
+      {
+        label: 'B',
+        text: "The instructor was knowledgeable, certainly, but the class size, nearly twenty-five participants for a subject that genuinely benefits from close individual attention and feedback, meant most of us got relatively little actual stage time across the eight weekly sessions. I left with a decent theoretical understanding of improv principles but comparatively little hands-on practice actually applying them under real performance conditions.",
+      },
+      {
+        label: 'C',
+        text: "What I valued most, unexpectedly, wasn't really the performance skills themselves but the specific practice of listening properly, actively building on what a scene partner offers rather than planning my own next line while they're still mid-sentence. That particular skill alone has noticeably improved how I listen in ordinary conversations outside class, which honestly wasn't something I expected to get out of a theatre course at all.",
+      },
+      {
+        label: 'D',
+        text: "I'd taken two similar courses previously, so I went in expecting relatively little new material, but this instructor's specific emphasis on physical movement and spatial awareness during scenes was a genuinely fresh angle I hadn't properly encountered before. That said, the course moved at a noticeably slower pace than my previous two experiences, which occasionally left me feeling somewhat under-challenged relative to my existing skill level.",
+      },
+    ],
+    questions: [
+      { question: 'Which reviewer says they got relatively little actual practice time due to class size?', answerLabel: 'B' },
+      { question: 'Which reviewer found the course improved their listening skills in everyday conversation?', answerLabel: 'C' },
+      { question: 'Which reviewer initially found the lack of a script deeply uncomfortable?', answerLabel: 'A' },
+      { question: 'Which reviewer had taken similar courses before and expected little new content?', answerLabel: 'D' },
+      { question: "Which reviewer noticed the course's effects carrying over into their professional life?", answerLabel: 'A' },
+      { question: 'Which reviewer felt somewhat under-challenged given their existing experience level?', answerLabel: 'D' },
+      { question: 'Which reviewer valued a specific skill unrelated directly to performance ability?', answerLabel: 'C' },
+      { question: 'Which reviewer suggests the class size limited how effective the course could be?', answerLabel: 'B' },
     ],
   },
 ];

@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Timer, LogOut } from 'lucide-react';
 import { findExercise, PART_LABELS } from '../data';
 import type { ExamConfig, ExamStep } from '../lib/exam';
 import { formatSeconds } from '../lib/exam';
 import { Button, Card, PartTag } from './ui';
+import { getPartColor } from '../lib/colors';
 import { renderExercise } from './renderExercise';
 
 export interface ExamResults {
@@ -49,6 +52,8 @@ export function ExamRunner({
     );
   }
 
+  const color = getPartColor(exercise.part);
+
   const handleComplete = (correct: number, total: number) => {
     setScores((s) => ({ ...s, [step.exerciseId]: { correct, total } }));
     onExerciseComplete(step.exerciseId, correct, total);
@@ -69,28 +74,41 @@ export function ExamRunner({
           <p className="font-mono text-xs uppercase tracking-wider text-inkSoft">
             {config.label} · parte {currentIndex + 1} de {steps.length}
           </p>
-          <PartTag part={exercise.part} label={PART_LABELS[exercise.part]} />
+          <PartTag part={exercise.part} label={PART_LABELS[exercise.part]} color={color} />
         </div>
-        <div className="flex items-center gap-4">
-          <span className="font-mono text-sm text-pen border border-pen/30 rounded-sm px-3 py-1.5">
-            ⏱ {formatSeconds(elapsed)}
+        <div className="flex items-center gap-3">
+          <span className="inline-flex items-center gap-1.5 font-mono text-sm font-semibold text-gold border-2 border-gold/25 bg-goldSoft rounded-xl px-3 py-1.5">
+            <Timer size={15} /> {formatSeconds(elapsed)}
           </span>
           <Button variant="ghost" onClick={onAbort}>
-            Abandonar
+            <LogOut size={15} /> Abandonar
           </Button>
         </div>
       </div>
 
-      <div className="w-full h-1.5 bg-ink/10 rounded-full overflow-hidden">
-        <div
-          className="h-full bg-pen transition-all"
-          style={{ width: `${((currentIndex + (hasAnswered ? 1 : 0)) / steps.length) * 100}%` }}
+      <div className="w-full h-2 bg-ink/8 rounded-full overflow-hidden">
+        <motion.div
+          className={`h-full rounded-full bg-gradient-to-r ${color.gradient}`}
+          animate={{
+            width: `${((currentIndex + (hasAnswered ? 1 : 0)) / steps.length) * 100}%`,
+          }}
+          transition={{ duration: 0.4, ease: 'easeOut' }}
         />
       </div>
 
-      <h2 className="font-serif text-2xl">{exercise.title}</h2>
-
-      <Card className="p-6">{renderExercise(exercise, handleComplete)}</Card>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={exercise.id}
+          initial={{ opacity: 0, x: 16 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -16 }}
+          transition={{ duration: 0.25 }}
+          className="space-y-6"
+        >
+          <h2 className="font-display text-2xl font-semibold text-ink">{exercise.title}</h2>
+          <Card className={`p-6 border-t-4 ${color.border}`}>{renderExercise(exercise, handleComplete)}</Card>
+        </motion.div>
+      </AnimatePresence>
 
       <div className="flex justify-end">
         <Button onClick={handleNext} disabled={!hasAnswered}>

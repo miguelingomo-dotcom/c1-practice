@@ -39,9 +39,9 @@ export function GappedText({
                 checked
                   ? isCorrect(seg.index)
                     ? 'bg-correctSoft border-correct text-correct'
-                    : 'bg-[#F4DEDF] border-pen text-pen'
+                    : 'bg-penSoft/25 border-pen text-pen'
                   : selected[seg.index]
-                    ? 'bg-ink text-paper border-ink'
+                    ? 'bg-accent text-white border-accent shadow-sm shadow-accent/30'
                     : 'bg-white border-ink/30 text-inkSoft'
               }`}
             >
@@ -61,7 +61,7 @@ export function GappedText({
             return (
               <div
                 key={p.label}
-                className={`bg-white border rounded-sm p-3 text-sm leading-6 ${isUsed ? 'border-ink/10 opacity-40' : 'border-ink/10'}`}
+                className={`bg-white border rounded-lg p-3 text-sm leading-6 ${isUsed ? 'border-ink/10 opacity-40' : 'border-ink/10'}`}
               >
                 <span className="font-mono text-pen font-semibold mr-2">{p.label}</span>
                 {p.text}
@@ -78,7 +78,7 @@ export function GappedText({
                 disabled={checked}
                 value={selected[i] ?? ''}
                 onChange={(e) => setSelected((s) => ({ ...s, [i]: e.target.value }))}
-                className="w-full px-2 py-1.5 rounded-sm border border-ink/20 bg-white text-sm focus-ring"
+                className="w-full px-2 py-1.5 rounded-lg border border-ink/20 bg-white text-sm focus-ring"
               >
                 <option value="" disabled>
                   —

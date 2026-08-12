@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { WritingPrompt } from '../types';
 import { TASK_TYPE_LABELS } from '../data/writing';
+import { WRITING_COLOR } from '../lib/colors';
 import { useWritingDraft } from '../hooks/useWritingDraft';
 import { useAiSettings } from '../hooks/useAiSettings';
 import { countWords, wordCountColor } from '../lib/wordCount';
@@ -86,13 +87,14 @@ export function WritingEditor({ prompt, onBack }: { prompt: WritingPrompt; onBac
             label={
               prompt.part === 1 ? 'Parte 1 · Ensayo obligatorio' : `Parte 2 · ${TASK_TYPE_LABELS[prompt.type]}`
             }
+            color={WRITING_COLOR}
           />
-          <h2 className="font-serif text-2xl">{prompt.title}</h2>
+          <h2 className="font-display text-2xl">{prompt.title}</h2>
         </div>
         <div className="flex items-center gap-2">
           <button
             onClick={() => setRunning((r) => !r)}
-            className="font-mono text-sm text-pen border border-pen/30 rounded-sm px-3 py-1.5 focus-ring"
+            className="font-mono text-sm text-fuchsia border-2 border-fuchsia/25 bg-fuchsiaSoft rounded-xl px-3 py-1.5 focus-ring transition-colors"
           >
             ⏱ {formatSeconds(elapsed)} {running ? '(pausar)' : '(reanudar)'}
           </button>
@@ -107,7 +109,7 @@ export function WritingEditor({ prompt, onBack }: { prompt: WritingPrompt; onBac
           <>
             <p className="text-sm leading-6">{prompt.context}</p>
             <div className="grid sm:grid-cols-2 gap-4 pt-1">
-              <div className="bg-white border border-ink/10 rounded-sm p-3">
+              <div className="bg-white border border-ink/10 rounded-xl p-3">
                 <p className="text-xs font-mono uppercase tracking-wider text-inkSoft mb-1.5">Notes</p>
                 <ul className="text-sm space-y-1 list-disc list-inside">
                   {prompt.notes.map((n, i) => (
@@ -115,7 +117,7 @@ export function WritingEditor({ prompt, onBack }: { prompt: WritingPrompt; onBac
                   ))}
                 </ul>
               </div>
-              <div className="bg-white border border-ink/10 rounded-sm p-3">
+              <div className="bg-white border border-ink/10 rounded-xl p-3">
                 <p className="text-xs font-mono uppercase tracking-wider text-inkSoft mb-1.5">
                   Some opinions expressed in the discussion
                 </p>
@@ -141,7 +143,7 @@ export function WritingEditor({ prompt, onBack }: { prompt: WritingPrompt; onBac
           value={text}
           onChange={(e) => setText(e.target.value)}
           placeholder="Empieza a escribir aquí..."
-          className="w-full min-h-[320px] p-4 rounded-sm border border-ink/20 bg-white font-serif text-[15px] leading-7 focus-ring resize-y"
+          className="w-full min-h-[320px] p-4 rounded-2xl border-2 border-ink/10 bg-white font-serif text-[15px] leading-7 focus-ring resize-y focus:border-fuchsia/40 transition-colors"
         />
         <div className="flex items-center justify-between">
           <span className={`font-mono text-sm ${wordCountColor(wordCount)}`}>
@@ -161,12 +163,12 @@ export function WritingEditor({ prompt, onBack }: { prompt: WritingPrompt; onBac
       <Card className="p-5 space-y-3">
         <div className="flex items-center justify-between">
           <div>
-            <p className="font-mono text-xs uppercase tracking-wider text-pen">Feedback con IA</p>
-            <h3 className="font-serif text-lg">Corrección automática (opcional)</h3>
+            <p className="font-mono text-xs uppercase tracking-wider text-fuchsia">Feedback con IA</p>
+            <h3 className="font-display text-lg">Corrección automática (opcional)</h3>
           </div>
           <button
             onClick={() => setShowSettings(true)}
-            className="text-xs text-inkSoft hover:text-pen underline underline-offset-2"
+            className="text-xs text-inkSoft hover:text-fuchsia underline underline-offset-2"
           >
             {ai.hasKey ? 'Cambiar clave / modelo' : 'Configurar clave de API'}
           </button>
@@ -190,13 +192,13 @@ export function WritingEditor({ prompt, onBack }: { prompt: WritingPrompt; onBac
         )}
 
         {feedbackError && (
-          <p className="text-sm text-pen bg-[#F4DEDF] border border-pen/30 rounded-sm p-3">
+          <p className="text-sm text-pen bg-penSoft/30 border border-pen/30 rounded-xl p-3">
             {feedbackError}
           </p>
         )}
 
         {feedback && (
-          <div className="bg-white border border-ink/10 rounded-sm p-4 text-sm leading-7 whitespace-pre-line">
+          <div className="bg-white border border-ink/10 rounded-2xl p-4 text-sm leading-7 whitespace-pre-line">
             {feedback}
           </div>
         )}
